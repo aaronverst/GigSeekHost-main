@@ -1,0 +1,51 @@
+Name,Location,Capacity,DesiredGenre,EventsHeld
+Bogarts,"Cincinnati, OH",1500,None,1000+
+The Stage House,"Indianapolis, IN",1500,Country,100+
+The Melody Hall,"Chicago, IL",1000,None,1000+
+The Ampitheatre,"Cleveland, OH",1000,Country,25+
+The Arena Club,"Atlanta, GA",100,Comedy,100+
+The Electric Ballroom,"Nashville, TN",2000,Electronic,1000+
+The Juke Joint,"Pittsburg, PA",3000,Pop,100+
+The Music Box,"Los Angeles, CA",500,Electronic,1000+
+The Rhythm Room,"Miami, FL",2000,Reggae,1000+
+The Rockpile,"Dallas, TX",1500,Pop,500+
+The Starlight Theatre,"Cincinnati, OH",1500,Electronic,1000+
+The Underground Lounge,"Indianapolis, IN",1500,Country,1000+
+The Acoustic Room,"Chicago, IL",500,Rock,25+
+The Backstage Bar,"Cleveland, OH",1000,Comedy,1000+
+The Concert Hall,"Atlanta, GA",3000,Country,500+
+The Drum Circle,"Nashville, TN",250,Rock,100+
+The Funky House,"Pittsburg, PA",100,Alternative,100+
+The Guitar Lounge,"Los Angeles, CA",500,Pop,1000+
+The Harmony House,"Miami, FL",750,Country,500+
+The Jazz Junction,"Dallas, TX",250,Jazz,1000+
+The Key Club,"Cincinnati, OH",1500,None,1000+
+The Lyrical Loft,"Indianapolis, IN",500,Alternative,25+
+The Music Factory,"Chicago, IL",250,Pop,1000+
+The Nightclub Lounge,"Cleveland, OH",100,Jazz,1000+
+The Opera House,"Atlanta, GA",250,Pop,200+
+The Performance Place,"Nashville, TN",750,Pop,1000+
+The Qube,"Pittsburg, PA",2500,Rock,100+
+The Rock House,"Los Angeles, CA",2500,Country,1000+
+The Soundstage,"Miami, FL",3000,Electronic,1000+
+The Troubadour's Tavern,"Dallas, TX",500,Comedy,1000+
+The Underground Sound,"Cincinnati, OH",1500,Jazz,25+
+The Vocal Arena,"Indianapolis, IN",500,Alternative,1000+
+The World Stage,"Chicago, IL",3000,Alternative,1000+
+The X-Factor,"Cleveland, OH",2500,Comedy,500+
+The Youthful Sound,"Atlanta, GA",100,Reggae,1000+
+The Zephyr Lounge,"Nashville, TN",2500,Electronic,1000+
+The Amp'd Up Stage,"Pittsburg, PA",2000,None,25+
+The Beat Street Venue,"Los Angeles, CA",2500,Rock,1000+
+The Concert Kingdom,"Miami, FL",3000,Pop,500+
+The Downtown Jive,"Dallas, TX",2500,None,25+
+The Encore Room,"Cincinnati, OH",500,Alternative,1000+
+The Festive Forum,"Indianapolis, IN",2000,Electronic,200+
+The Groove Emporium,"Chicago, IL",1500,Pop,1000+
+The Hype House,"Cleveland, OH",750,Comedy,100+
+The Intimate Concert,"Atlanta, GA",250,Rock,500+
+The Jam Joint,"Nashville, TN",750,Jazz,25+
+The Kinetic Club,"Pittsburg, PA",1500,Rock,500+
+The Listening Lounge,"Los Angeles, CA",2000,Comedy,200+
+The Melodic Mansion,"Miami, FL",2500,Jazz,1000+
+The Sound Garden,"Dallas, TX",2000,Electronic,100+

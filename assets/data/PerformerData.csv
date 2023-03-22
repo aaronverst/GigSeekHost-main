@@ -1,0 +1,51 @@
+Name,Genre,Hometown,maxPlayTime,distanceFromYou
+The Velvet Haze,Rock,"Los Angeles, CA",30,2000
+Moonlight Serenade,Country,"Nashville, TN",45,250
+Electric Vortex,Alternative,"Los Angeles, CA",45,2000
+The Midnight Riders,Jazz,"Los Angeles, CA",60,2000
+Crimson Horizon,Electronic,"Los Angeles, CA",30,2000
+Blackout Boulevard,Pop,"Pittsburg, PA",60,300
+Northern Lights,Reggae,"Los Angeles, CA",120,2000
+The Mystic Minds,Comedy,"Los Angeles, CA",30,2000
+The Golden Echoes,Alternative,"Los Angeles, CA",90,2000
+Thunderbolt Symphony,Rock,"Cincinnati, OH",60,10
+Wildfire Brigade,Rock,"Pittsburg, PA",90,300
+Sunset Syndicate,Country,"Nashville, TN",45,250
+Solar Flare,Alternative,"Cincinnati, OH",90,10
+The Silver Lining,Jazz,"Cincinnati, OH",30,10
+The Neon Lights,Electronic,"Cincinnati, OH",60,10
+The Cosmic Crusaders,Pop,"Cincinnati, OH",30,10
+Electric Oasis,Reggae,"Miami, FL",120,1000
+Velvet Undergrounders,Comedy,"Cincinnati, OH",45,10
+The Wandering Souls,Alternative,"Cincinnati, OH",120,10
+The Dream Weavers,Rock,"Pittsburg, PA",60,300
+The Dark Knights,Rock,"Miami, FL",90,1000
+The Radiant Rebels,Country,"Nashville, TN",30,250
+The Electric Souls,Alternative,"Miami, FL",60,1000
+The Enchanted Echoes,Jazz,"Miami, FL",30,1000
+The Mystic Melodies,Electronic,"Miami, FL",60,1000
+The Phoenix Flames,Pop,"Pittsburg, PA",60,300
+The Rustic Rhythms,Reggae,"Miami, FL",30,1000
+The Sapphire Skies,Comedy,"Dallas, TX",120,1000
+The Shadow Shakers,Pop,"Miami, FL",30,1000
+The Sonic Boomers,Pop,"Dallas, TX",90,1000
+The Starry Night,Rock,"Dallas, TX",45,1000
+The Sunset Sounds,Country,"Nashville, TN",90,250
+The Thundering Hooves,Alternative,"Dallas, TX",45,1000
+The Uncharted Waters,Jazz,"Dallas, TX",90,1000
+The Velvet Vibes,Electronic,"Dallas, TX",120,1000
+The Wildflower Band,Pop,"Indianapolis, IN",30,100
+The Zenith Zephyrs,Reggae,"Indianapolis, IN",120,100
+The Aurora Borealis,Comedy,"Indianapolis, IN",45,100
+The Black Diamond Band,Rock,"Dallas, TX",90,1000
+The Cosmic Collision,Pop,"Chicago, IL",120,300
+The Electric Euphoria,Rock,"Chicago, IL",30,300
+The Lunar Lights,Country,"Nashville, TN",90,250
+The Midnight Mirage,Alternative,"Chicago, IL",90,300
+The Northern Cross,Jazz,"Chicago, IL",30,300
+The Rustic Rhapsody,Electronic,"Chicago, IL",90,300
+The Sapphire Stars,Pop,"Cleveland, OH",30,250
+The Solar Serenade,Reggae,"Cleveland, OH",60,250
+The Stellar Serenade,Comedy,"Cleveland, OH",60,250
+The Thunderous Oceans,Alternative,"Cleveland, OH",30,250
+The Velvet Visions,Pop,"Pittsburg, PA",60,300
