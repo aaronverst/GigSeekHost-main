@@ -34,7 +34,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="../assets/favicon-light.png" alt="" width="40">
+        <img src="../assets/img/icons/gigseek.png" alt="" width="90">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
         aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,6 +93,14 @@
     <div class="page-section">
       <div class="container">
         <div class="row">
+          <div class="search-venue">
+            <div class="dropdown">
+              <button onclick="Dropdown()" class="dropbtn">Name</button>
+              <div id="nameDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search..." id="nameInput" onkeyup="nameFilterFunction()">
+              </div>
+            </div>
+          </div>
           <div class="card-container">
             <!-- <div class="our-venue">
               <div class="picture">
@@ -209,81 +217,81 @@
   </main>
 
 
-  <footer class="page-footer-section bg-dark fg-white">
+  <div class="page-section bg-dark fg-white">
     <div class="container">
-      <div class="row mb-5 py-3">
-        <div class="col-sm-6 col-lg-2 py-3">
-          <h5 class="mb-3">Pages</h5>
-          <ul class="menu-link">
-            <li><a href="#" class="">Features</a></li>
-            <li><a href="#" class="">Customers</a></li>
-            <li><a href="#" class="">Pricing</a></li>
-            <li><a href="#" class="">GDPR</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-6 col-lg-2 py-3">
-          <h5 class="mb-3">Company</h5>
-          <ul class="menu-link">
-            <li><a href="#" class="">About</a></li>
-            <li><a href="#" class="">Team</a></li>
-            <li><a href="#" class="">Leadership</a></li>
-            <li><a href="#" class="">Careers</a></li>
-            <li><a href="#" class="">HIRING!</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 col-lg-4 py-3">
-          <h5 class="mb-3">Contact</h5>
-          <ul class="menu-link">
-            <li><a href="#" class="">Contact Us</a></li>
-            <li><a href="#" class="">Office Location</a></li>
-            <li><a href="#" class="">hello@mobster.com</a></li>
-            <li><a href="#" class="">support@macodeid.com</a></li>
-            <li><a href="#" class="">+808 11233 900</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 col-lg-4 py-3">
-          <h5 class="mb-3">Subscribe</h5>
-          <p>Get some offers, news, or update features of application</p>
-          <form method="POST">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Your email..">
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-primary"><span class="mai-send"></span></button>
-              </div>
+      <h1 class="text-center">Why Choose GigSeek?</h1>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="card card-body border-0 bg-transparent text-center wow zoomIn">
+            <div class="mb-3">
+              <img src="../assets/img/icons/Handshake.png" width="65" height="65" alt="">
             </div>
-          </form>
-
-          <!-- Social Media Button -->
-          <div class="mt-4">
-            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></a>
-            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></a>
-            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></a>
-            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a>
+            <p class="fs-large">Connections</p>
+            <p class="fs-small fg-grey">Our application allows you to connect with various performers or venues,
+              organizing and streamlining
+              the booking process. Both sides of the connection will have to accept a connection request in order for
+              you both to be
+              connected.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="card card-body border-0 bg-transparent text-center wow zoomIn" data-wow-delay="200ms">
+            <div class="mb-3">
+              <img src="../assets/img/icons/FilterIcon.png" width="65" height="65" alt="">
+            </div>
+            <p class="fs-large">Seamless Filtering</p>
+            <p class="fs-small fg-grey">As a performer or venue, you have the option to choose from multiple filters to
+              find the perfect event for you. </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="card card-body border-0 bg-transparent text-center wow zoomIn" data-wow-delay="400ms">
+            <div class="mb-3">
+              <img src="../assets/img/icons/BrowseIcon.png" width="65" height="65" alt="">
+            </div>
+            <p class="fs-large">Browse</p>
+            <p class="fs-small fg-grey">As a user, you have the power to browse the profiles of potential booking
+              candidates. This ensures you know exactly who you are booking with.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="card card-body border-0 bg-transparent text-center wow zoomIn" data-wow-delay="600ms">
+            <div class="mb-3">
+              <img src="../assets/img/icons/coins.svg" width="65" height="65" alt="">
+            </div>
+            <p class="fs-large">Save Money</p>
+            <p class="fs-small fg-grey">With our monthly subscription plans, you will be saving money using GigSeek
+              instead of
+              hiring a tour manager!</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="card card-body border-0 bg-transparent text-center wow zoomIn" data-wow-delay="800ms">
+            <div class="mb-3">
+              <img src="../assets/img/icons/support.svg" alt="">
+            </div>
+            <p class="fs-large">24/7 Support</p>
+            <p class="fs-small fg-grey">If there are any questions, concerns, comments, or even compliments, we are here
+              for you 24/7 and are happy to be of service!</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="card card-body border-0 bg-transparent text-center wow zoomIn" data-wow-delay="1000ms">
+            <div class="mb-3">
+              <img src="../assets/img/icons/laptop.svg" alt="">
+            </div>
+            <p class="fs-large">Data Security</p>
+            <p class="fs-small fg-grey">Your information is safe with us. All your private information, such as contact
+              information is safe. Your
+              contact information will only be shared
+              with the performers or venues that you make connections with.
+            </p>
           </div>
         </div>
       </div>
     </div>
-
-    <hr>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 py-2">
-          <img src="../assets/favicon-light.png" alt="" width="40">
-          <!-- Please don't remove or modify the credits below -->
-          <p class="d-inline-block ml-2">Copyright &copy; <a href="https://www.macodeid.com/"
-              class="fg-white fw-medium">MACode ID</a>. All rights reserved</p>
-        </div>
-        <div class="col-12 col-md-6 py-2">
-          <ul class="nav justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link">Terms of Use</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Cookie Policy</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer> <!-- .page-footer -->
+  </div>
 
   <script src="../assets/js/d3.v6.min.js"></script>
 
