@@ -42,11 +42,11 @@ const cardMethods = () => {
         postElement.innerHTML = `
 
               <div class="picture">
-                <img class="img-fluid" src="https://source.unsplash.com/random/800x800/?img=1">
+                <img class="img-fluid" src="../assets/img/icons/killers.jpg">
               </div>
               <div class="team-content">
-                <h3 class="name">${postData.name}</h3>
-                <h4 class="title">${postData.body}</h4>
+                <h3 class="name">The Killers</h3>
+                <h4 class="title">Las Vegas, NV | Alternative</h4>
               </div>
               <ul class="social">
                 <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>

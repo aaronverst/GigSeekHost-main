@@ -1,4 +1,5 @@
 var count = 0;
+let nameData = [];
 d3.csv('../assets/data/VenueData.csv')
     .then(data => {
         data.forEach(d => {
@@ -7,28 +8,23 @@ d3.csv('../assets/data/VenueData.csv')
             d.Capacity = +d.Capacity;
         })
 
-        let cardData = [];
+
 
         for (let i = 0; i < count; i++) {
-            cardData[i] = data[i];
+            nameData[i] = data[i];
         };
 
-        console.log(cardData);
+        console.log(nameData);
 
+        const nameContainer = document.getElementById("nameDropdown");
 
-        const nameContainer = document.querySelector('.search-venue');
+        for (let i = 0; i < count; i++) {
+            var nameElement = document.createElement('option');
+            nameElement.value = nameData[i].Name;
+            nameElement.innerHTML = nameData[i].Name;
 
-        const nameMethods = () => {
-            cardData.map((nameData) => {
-                const nameElement = document.createElement('div');
-                nameElement.classList.add('dropdown-content');
-                nameElement.innerHTML = `
-                <a href="#Name0">${nameData.Name}</a>           
-        `
-                nameContainer.appendChild(nameElement);
-            })
-        }
-        nameMethods()
+            nameContainer.appendChild(nameElement);
+        };
 
     })
 
@@ -38,12 +34,15 @@ function Dropdown() {
     document.getElementById("nameDropdown").classList.toggle("show");
 };
 
+Dropdown();
+
+
 function nameFilterFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("nameInput");
     filter = input.value.toUpperCase();
     div = document.getElementById("nameDropdown");
-    a = div.getElementsByTagName("a");
+    a = div.getElementsByTagName("option");
     for (i = 0; i < a.length; i++) {
         txtValue = a[i].textContent || a[i].innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -53,6 +52,11 @@ function nameFilterFunction() {
         }
     }
 };
+
+
+// function updateVenueName() {
+//     var venueName = $('select.venueFilter').val();
+// }
 
 
 

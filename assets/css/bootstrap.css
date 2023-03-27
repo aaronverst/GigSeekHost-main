@@ -10813,6 +10813,7 @@ a.text-dark:focus {
 
   .container {
     min-width: 992px !important;
+    min-height: 0px !important;
   }
 
   .navbar {

@@ -94,11 +94,13 @@
       <div class="container">
         <div class="row">
           <div class="search-venue">
-            <div class="dropdown">
-              <button onclick="Dropdown()" class="dropbtn">Name</button>
-              <div id="nameDropdown" class="dropdown-content">
-                <input type="text" placeholder="Search..." id="nameInput" onkeyup="nameFilterFunction()">
-              </div>
+            <div class="name_dropdown">
+              <input type="text" placeholder="Search..." id="nameInput" onkeyup="nameFilterFunction()">
+              <!-- <button onclick="Dropdown()" class="name_dropbtn">Venue Name</button> -->
+              <!-- <div id="nameDropdown" class="name_dropdown-content">     -->
+              <!-- </div> -->
+              <select id="nameDropdown" class="name_dropdown-content">
+              </select>
             </div>
           </div>
           <div class="card-container">
