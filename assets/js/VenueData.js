@@ -58,21 +58,44 @@ $("#myInput").on("keyup", updateVenue);
 
 function updateVenue() {
     var venueName = $('select.name_dropdown-content').val();
+    var search = $("#myInput").val();
 
 
-    $('.search-venue')
+    $('.c-container')
         .find('.card-container')
         .hide()
         .filter(function () {
             var okName = true;
 
+
             if (venueName !== "Name") {
                 okName = $(this).attr('data-name') === venueName;
-            };
+                console.log(okName);
+            }
+            else {
+                okName = true;
+            }
 
-            return okName
+            return okName;
 
         }).fadeIn('fast');
+
+    $('.name_dropdown')
+        .find('#myInput')
+        .hide()
+        .filter(function () {
+            var okSearch = true;
+
+            if (search !== '') {
+                okSearch = $(this).text().toUpperCase().indexOf(search) > -1;
+                console.log(okSearch);
+            }
+            else {
+                okSearch = true;
+            }
+
+            return okSearch;
+        })
 
 }
 

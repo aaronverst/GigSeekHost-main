@@ -1720,6 +1720,7 @@
 
 .mai-logo-dropbox:before {
   content: "\ebd0";
+  color: rgb(51, 51, 230);
 }
 
 .mai-logo-drupal:before {
@@ -2149,6 +2150,7 @@
 
 .mai-logo-snapchat:before {
   content: "\ec3b";
+  color: rgb(255, 243, 10);
 }
 
 .mai-logo-soundcloud:before {

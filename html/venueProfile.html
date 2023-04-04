@@ -11,9 +11,9 @@
 
   <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
 
-  <title>Mobster - One page app template</title>
+  <title>Gigseek - Premier Booking Experience</title>
 
-  <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/img/icons/gigseekMinimal.png" type="image/x-icon">
 
   <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -33,7 +33,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="../assets/favicon-light.png" alt="" width="40">
+        <img src="../assets/img/icons/gigseek.png" alt="" width="120">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
         aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link" href="searchForVenue.html">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="updates.html">What's New</a>
@@ -64,7 +64,8 @@
           </li>
         </ul>
         <div class="ml-auto my-2 my-lg-0">
-          <button class="btn btn-primary rounded-pill">Download Now</button>
+          <button class="btn btn-primary rounded-pill" onclick="smoothScroll(document.getElementById('second'))">Contact
+            Now</button>
         </div>
       </div>
     </div>
@@ -72,16 +73,16 @@
 
   <div class="bg-light">
 
-    <div class="page-hero-section bg-image hero-mini" style="background-image: url(../assets/img/performerback.svg);">
+    <div class="page-hero-section bg-image hero-mini" style="background-image: url(../assets/img/venueback.svg);">
       <div class="hero-caption">
         <div class="container fg-white h-100">
           <div class="row justify-content-center align-items-center text-center h-100">
             <div class="col-lg-6">
-              <h3 class="mb-4 fw-medium">Contact</h3>
+              <h3 class="mb-4 fw-medium">Venue Name</h3>
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
                   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                  <li class="breadcrumb-item active" aria-current="page">Venue</li>
                 </ol>
                 <div class="our-performer wow fadeInUp">
                   <div class="picture">
@@ -108,19 +109,19 @@
                 </div>
                 <div class="col-md-4 text-center py-2 py-md-2">
                   <i class="mai-musical-notes h3"></i>
-                  <p class="fg-primary fw-medium fs-vlarge">Genre</p>
+                  <p class="fg-primary fw-medium fs-vlarge">Desired Genre</p>
                   <p class="mb-1">Alternative</p>
                 </div>
                 <div class="col-md-4 text-center py-2 py-md-2">
-                  <i class="mai-play-outline h3"></i>
-                  <p class="fg-primary fw-medium fs-vlarge">Max Play Time:</p>
-                  <p class="mb-1">90 Minutes</p>
+                  <i class="mai-calendar h3"></i>
+                  <p class="fg-primary fw-medium fs-vlarge">Events Held:</p>
+                  <p class="mb-1">1000+</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 my-3 wow fadeInUp">
-            <div class="card-page">
+            <div class="card-page" id="second">
               <h3 class="fw-normal">Request a Show</h3>
               <form method="POST" class="mt-3">
                 <div class="form-group">
@@ -155,7 +156,7 @@
           </div>
           <div class="col-md-5 col-lg-7 my-3 wow fadeInUp">
             <div class="card-page">
-              <h3 class="fw-normal">Photos from performer:</h3>
+              <h3 class="fw-normal">Photos from the Venue:</h3>
               <div class="maps-container">
                 <script src="../assets/js/performerProfileGenerator.js"></script>
               </div>
@@ -165,21 +166,21 @@
               <div class="links-container">
                 <div class="row row-beam-lg">
                   <div class="col-md-4 text-center py-2 py-md-2">
-                    <a class="nav-link" href="https://open.spotify.com/">
-                      <i class="mai-logo-spotify h1"></i>
-                      <p class="fg-primary fw-medium fs-vlarge">Spotify</p>
-                    </a>
-                  </div>
-                  <div class="col-md-4 text-center py-2 py-md-2">
-                    <a class="nav-link" href="https://soundcloud.com/">
-                      <i class="mai-logo-soundcloud h1"></i>
-                      <p class="fg-primary fw-medium fs-vlarge">Soundcloud</p>
-                    </a>
-                  </div>
-                  <div class="col-md-4 text-center py-2 py-md-2">
                     <a class="nav-link" href="https://www.instagram.com//">
                       <i class="mai-logo-instagram h1"></i>
                       <p class="fg-primary fw-medium fs-vlarge">Instagram</p>
+                    </a>
+                  </div>
+                  <div class="col-md-4 text-center py-2 py-md-2">
+                    <a class="nav-link" href="https://www.snapchat.com/en-US">
+                      <i class="mai-logo-snapchat h1"></i>
+                      <p class="fg-primary fw-medium fs-vlarge">Snapchat</p>
+                    </a>
+                  </div>
+                  <div class="col-md-4 text-center py-2 py-md-2">
+                    <a class="nav-link" href="https://www.dropbox.com/login">
+                      <i class="mai-logo-dropbox h1"></i>
+                      <p class="fg-primary fw-medium fs-vlarge">Dropbox</p>
                     </a>
                   </div>
                 </div>
@@ -271,7 +272,7 @@
 
   <script>
     function alertFunction() {
-      alert("Thank you for using GigSeek! The perfomer will be notified of your request");
+      alert("Thank you for using GigSeek! The venue will be notified of your request");
     }
   </script>
 
@@ -286,6 +287,8 @@
   <script src="../assets/js/mobster.js"></script>
 
   <script src="../assets/js/google-maps.js"></script>
+
+  <script src="../assets/js/smoothScroller.js"></script>
 
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
