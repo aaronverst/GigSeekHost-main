@@ -39,7 +39,7 @@ Dropdown();
 
 function nameFilterFunction() {
     var input, filter, ul, li, a, i;
-    input = document.getElementById("nameInput");
+    input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     div = document.getElementById("nameDropdown");
     a = div.getElementsByTagName("option");
@@ -53,10 +53,28 @@ function nameFilterFunction() {
     }
 };
 
+$("select.name_dropdown-content").change(updateVenue);
+$("#myInput").on("keyup", updateVenue);
 
-// function updateVenueName() {
-//     var venueName = $('select.venueFilter').val();
-// }
+function updateVenue() {
+    var venueName = $('select.name_dropdown-content').val();
+
+
+    $('.search-venue')
+        .find('.card-container')
+        .hide()
+        .filter(function () {
+            var okName = true;
+
+            if (venueName !== "Name") {
+                okName = $(this).attr('data-name') === venueName;
+            };
+
+            return okName
+
+        }).fadeIn('fast');
+
+}
 
 
 
