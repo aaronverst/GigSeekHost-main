@@ -3,7 +3,6 @@ d3.csv('../assets/data/VenueData.csv')
   .then(data => {
     data.forEach(d => {
       _data = data;
-      d.Capacity = +d.Capacity;
     })
 
 
@@ -19,14 +18,18 @@ d3.csv('../assets/data/VenueData.csv')
     const cardMethods = () => {
       cardData.map((postData) => {
         const postElement = document.createElement('div');
+        //console.log(randomImage())
         postElement.classList.add('card-container');
         postElement.setAttribute('data-name', postData.Name);
         postElement.setAttribute('data-location', postData.Location);
+        postElement.setAttribute('data-capacity', postData.Capacity);
+        postElement.setAttribute('data-genre', postData.DesiredGenre);
+        postElement.setAttribute('data-event', postData.EventsHeld);
         postElement.innerHTML = `
             <div class="our-venue" href="../assets/html/performerProfile.html">
               <a class="nav-link" href="venueProfile.html"</a> 
-              <div class="picture">
-                <img class="img-fluid" src="https://source.unsplash.com/random/800x800/?1">
+              <div class="picture" id="VenueImageHolder">
+                <img class="img-fluid">
               </div>
               <div class="team-content" }>
                 <h3 class="name">${postData.Name}</h3>
@@ -41,9 +44,13 @@ d3.csv('../assets/data/VenueData.csv')
               </ul>
             </div>
         `
-        postcontainer.appendChild(postElement)
+        //document.getElementById('imageholder') = '../assets/img/icons/killers.jpg';
+        postcontainer.appendChild(postElement);
+        generateImage();
+        console.log(generateImage());
       })
     }
     cardMethods();
 
   });
+

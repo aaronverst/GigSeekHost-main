@@ -68,7 +68,7 @@
   .our-venue .picture img {
       width: 100%;
       height: auto;
-      border-radius: 50%;
+      border-radius: 30%;
       transform: scale(1);
       transition: all 0.9s ease 0s;
   }
@@ -119,20 +119,6 @@
       background-color: #f7f5ec;
   }
 
-  .name_dropbtn {
-      background-color: #04AA6D;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-  }
-
-  .name_dropbtn:hover,
-  .name_dropbtn:focus {
-      background-color: #3e8e41;
-  }
-
   #myInput {
       box-sizing: border-box;
       background-image: url('searchicon.png');
@@ -148,9 +134,16 @@
       outline: 3px solid #ddd;
   }
 
+  .select2-container--default .select2-results__option--highlighted[aria-selected] {
+      background-color: #dddddd;
+      color: #2b2b2b;
+
+  }
+
   .name_dropdown {
       position: relative;
       display: inline-block;
+      left: 145px;
   }
 
   .name_dropdown-content {
@@ -171,7 +164,192 @@
   }
 
   .name_dropdown a:hover {
-      background-color: #ddd;
+      background-color: #cccccc;
+  }
+
+  .location_dropdown {
+      position: relative;
+      display: inline-block;
+      left: 145px;
+  }
+
+  .location_dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f6f6f6;
+      min-width: 200px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      z-index: 1;
+  }
+
+  .location_dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .location_dropdown a:hover {
+      background-color: #cccccc;
+  }
+
+  .capacity_dropdown {
+      position: relative;
+      display: inline-block;
+      left: 145px;
+  }
+
+  .capacity_dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f6f6f6;
+      min-width: 200px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      z-index: 1;
+  }
+
+  .capacity_dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .capacity_dropdown a:hover {
+      background-color: #cccccc;
+  }
+
+  .genre_dropdown {
+      position: relative;
+      display: inline-block;
+      left: 230px;
+  }
+
+  .genre_dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f6f6f6;
+      min-width: 200px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      z-index: 1;
+  }
+
+  .genre_dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .genre_dropdown a:hover {
+      background-color: #cccccc;
+  }
+
+  .event_dropdown {
+      position: relative;
+      display: inline-block;
+      left: 230px;
+  }
+
+  .event_dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f6f6f6;
+      min-width: 200px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      z-index: 1;
+  }
+
+  .event_dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .event_dropdown a:hover {
+      background-color: #cccccc;
+  }
+
+  .hometown_dropdown {
+      position: relative;
+      display: inline-block;
+      left: 145px;
+  }
+
+  .hometown_dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f6f6f6;
+      min-width: 200px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      z-index: 1;
+  }
+
+  .hometown_dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .hometown_dropdown a:hover {
+      background-color: #cccccc;
+  }
+
+  .maxPlayTime_dropdown {
+      position: relative;
+      display: inline-block;
+      left: 200px;
+  }
+
+  .maxPlayTime_dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f6f6f6;
+      min-width: 200px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      z-index: 1;
+  }
+
+  .maxPlayTime_dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .distance_dropdown {
+      position: relative;
+      display: inline-block;
+      left: 200px;
+  }
+
+  .distance_dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f6f6f6;
+      min-width: 200px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      z-index: 1;
+  }
+
+  .distance_dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .distance_dropdown a:hover {
+      background-color: #cccccc;
   }
 
   .show {
@@ -306,19 +484,20 @@
   }
 
   .our-performer {
-      border-radius: 0px;
-      padding: 0px 0 0px;
-      margin-bottom: 60px;
-      background-color: #eaeaff00;
+      border-radius: 25px;
+      padding: 30px 0 40px;
+      margin-bottom: 0px;
+      background-color: #eaeaff;
       text-align: center;
+      overflow: hidden;
       position: relative;
   }
 
   .our-performer .picture {
       display: inline-block;
-      height: 0px;
-      width: 170px;
-      margin-bottom: 0px;
+      height: 130px;
+      width: 130px;
+      margin-bottom: 50px;
       position: relative;
   }
 
@@ -359,4 +538,78 @@
       border-radius: 50%;
       transform: scale(1);
       transition: all 0.9s ease 0s;
+  }
+
+  .our-performer:hover .picture img {
+      box-shadow: 0 0 0 14px #f7f5ec;
+      transform: scale(0.7);
+  }
+
+  .our-performer .title {
+      position: relative;
+      display: block;
+      font-size: 15px;
+      color: #4e5052;
+      text-transform: capitalize;
+  }
+
+  .our-performer .social {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: #a37eff;
+      position: absolute;
+      bottom: -100px;
+      left: 0;
+      transition: all 0.4s ease 0s;
+  }
+
+  .our-performer:hover .social {
+      bottom: -15px;
+  }
+
+  .our-performer .social li {
+      display: inline-block;
+  }
+
+  .our-performer .social li a {
+      display: block;
+      padding: 10px;
+      font-size: 17px;
+      color: rgb(118, 34, 34);
+      transition: all 0.3s ease 0s;
+      text-decoration: none;
+  }
+
+  .our-performer .social li a:hover {
+      color: #a37eff;
+      background-color: #f7f5ec;
+  }
+
+  .location_dropdown-content {
+      width: 200px;
+  }
+
+  .capacity_dropdown-content {
+      width: 200px;
+  }
+
+  .genre_dropdown-content {
+      width: 200px;
+  }
+
+  .event_dropdown-content {
+      width: 200px;
+  }
+
+  .hometown_dropdown-content {
+      width: 200px;
+  }
+
+  .maxPlayTime_dropdown-content {
+      width: 200px;
+  }
+
+  .distance_dropdown-content {
+      width: 200px;
   }

@@ -29,8 +29,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.8/js/select2.min.js" defer></script>
 
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <link rel="stylesheet" href="/addons/select2/dist/css/select2.min.css">
@@ -53,22 +51,17 @@
 
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">Home</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="index.html">Homepage 1</a>
-              <a class="dropdown-item" href="index-2.html">Homepage 2</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="performerIndex.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="performerAbout.html">About</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="searchForVenue.html">Blog</a>
+            <a class="nav-link" href="searchForVenue.html">Find Venues</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="updates.html">What's New</a>
+            <a class="nav-link" href="performerUpdates.html">What's New</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="venueProfile.html">Contact</a>
@@ -87,11 +80,11 @@
         <div class="container fg-white h-100">
           <div class="row justify-content-center align-items-center text-center h-100">
             <div class="col-lg-6">
-              <h3 class="mb-4 fw-medium">Blog</h3>
+              <h3 class="mb-4 fw-medium">Find Venues</h3>
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
                   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                  <li class="breadcrumb-item active" aria-current="page">Find Venues</li>
                 </ol>
               </nav>
             </div>
@@ -105,10 +98,6 @@
         <div class="row">
           <div class="search-venue">
             <div class="name_dropdown">
-              <!-- <input type="text" placeholder="Search..." id="myInput" onkeyup="nameFilterFunction()"> -->
-              <!-- <button onclick="Dropdown()" class="name_dropbtn">Venue Name</button> -->
-              <!-- <div id="nameDropdown" class="name_dropdown-content">     -->
-              <!-- </div> -->
               <label for="nameDropdown"> Name: </label>
               <select id="nameDropdown" class="name_dropdown-content">
               </select>
@@ -118,29 +107,26 @@
               <select id="locationDropdown" class="location_dropdown-content">
               </select>
             </div>
+            <div class="capacity_dropdown">
+              <label for="capacityDropdown"> Capacity: </label>
+              <select id="capacityDropdown" class="capacity_dropdown-content">
+              </select>
+            </div>
+            <div class="genre_dropdown">
+              <label for="genreDropdown"> Desired Genre: </label>
+              <select id="genreDropdown" class="genre_dropdown-content">
+              </select>
+            </div>
+            <div class="event_dropdown">
+              <label for="eventDropdown"> Events Held: </label>
+              <select id="eventDropdown" class="event_dropdown-content">
+              </select>
+            </div>
 
             <div class="c-container">
-              <!-- <div class="card-container"> -->
-              <!-- <div class="our-venue">
-              <div class="picture">
-                <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
-              </div>
-              <div class="team-content">
-                <h3 class="name">Michele Miller</h3>
-                <h4 class="title">Web Developer</h4>
-              </div>
-              <ul class="social">
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
-              </ul>
-            </div> -->
-              <!-- </div> -->
             </div>
             <!-- Sidebar -->
-            <div class="col-lg-4 py-3">
+            <!-- <div class="col-lg-4 py-3">
               <div class="widget-wrap">
                 <form action="#" class="search-form">
                   <h3 class="widget-title">Search</h3>
@@ -229,7 +215,7 @@
                   voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique,
                   inventore eos fugit cupiditate numquam!</p>
               </div>
-            </div> <!-- end sidebar -->
+            </div> end sidebar -->
           </div>
         </div>
       </div>
@@ -326,6 +312,8 @@
   <script src="../assets/js/mobster.js"></script>
 
   <script src="../assets/js/VenueData.js"></script>
+
+  <script src="../assets/js/VenueImgGenerator.js"></script>
 
 </body>
 

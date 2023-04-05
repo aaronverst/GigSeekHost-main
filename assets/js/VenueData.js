@@ -5,8 +5,12 @@ d3.csv('../assets/data/VenueData.csv')
         data.forEach(d => {
             _data = data;
             count += 1;
-            d.Capacity = +d.Capacity;
         })
+
+        var allLocations = d3.rollups(data, d => d.length, d => d.Location);
+        var allCapacities = d3.rollups(data, d => d.length, d => d.Capacity);
+        var allGenres = d3.rollups(data, d => d.length, d => d.DesiredGenre);
+        var allEventsHeld = d3.rollups(data, d => d.length, d => d.EventsHeld);
 
         const nameContainer = document.getElementById("nameDropdown");
 
@@ -28,12 +32,54 @@ d3.csv('../assets/data/VenueData.csv')
             $(".location_dropdown-content").select2();
         });
 
-        for (let i = 0; i < count; i++) {
+        for (let j = 0; j < allLocations.length; j++) {
             var locationElement = document.createElement('option');
-            locationElement.value = _data[i].Location;
-            locationElement.innerHTML = _data[i].Location;
+            locationElement.value = allLocations[j][0];
+            locationElement.innerHTML = allLocations[j][0];
 
             locationContainer.appendChild(locationElement);
+        };
+
+        const capacityContainer = document.getElementById("capacityDropdown");
+
+        $(document).ready(function () {
+            $(".capacity_dropdown-content").select2();
+        });
+
+        for (let i = 0; i < allCapacities.length; i++) {
+            var capacityElement = document.createElement('option');
+            capacityElement.value = allCapacities[i][0];
+            capacityElement.innerHTML = allCapacities[i][0];
+
+            capacityContainer.appendChild(capacityElement);
+        };
+
+        const genreContainer = document.getElementById("genreDropdown");
+
+        $(document).ready(function () {
+            $(".genre_dropdown-content").select2();
+        });
+
+        for (let i = 0; i < allGenres.length; i++) {
+            var genreElement = document.createElement('option');
+            genreElement.value = allGenres[i][0];
+            genreElement.innerHTML = allGenres[i][0];
+
+            genreContainer.appendChild(genreElement);
+        };
+
+        const eventContainer = document.getElementById("eventDropdown");
+
+        $(document).ready(function () {
+            $(".event_dropdown-content").select2();
+        });
+
+        for (let i = 0; i < allEventsHeld.length; i++) {
+            var eventElement = document.createElement('option');
+            eventElement.value = allEventsHeld[i][0];
+            eventElement.innerHTML = allEventsHeld[i][0];
+
+            eventContainer.appendChild(eventElement);
         };
 
 
@@ -42,52 +88,25 @@ d3.csv('../assets/data/VenueData.csv')
 
     .catch(error => console.error(error));
 
-function Dropdown() {
+function venueDropdown() {
     document.getElementById("nameDropdown").classList.toggle("show");
     document.getElementById("locationDropdown").classList.toggle("show");
+    document.getElementById("capacityDropdown").classList.toggle("show");
+    document.getElementById("genreDropdown").classList.toggle("show");
+    document.getElementById("eventDropdown").classList.toggle("show");
+
 };
 
-Dropdown();
+venueDropdown();
 
-
-function nameFilterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("nameDropdown");
-    a = div.getElementsByTagName("option");
-    for (i = 0; i < a.length; i++) {
-        txtValue = a[i].textContent || a[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            a[i].style.display = "";
-        } else {
-            a[i].style.display = "none";
-        }
-    }
-};
-
-function locationFilterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("locationDropdown");
-    a = div.getElementsByTagName("option");
-    for (i = 0; i < a.length; i++) {
-        txtValue = a[i].textContent || a[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            a[i].style.display = "";
-        } else {
-            a[i].style.display = "none";
-        }
-    }
-};
-
-$("select.name_dropdown-content, select.location_dropdown-content").change(updateVenue);
-// $("select.location_dropdown-content").change(updateVenue);
+$("select.name_dropdown-content, select.location_dropdown-content, select.capacity_dropdown-content, select.genre_dropdown-content, select.event_dropdown-content").change(updateVenue);
 
 function updateVenue() {
     var venueName = $('select.name_dropdown-content').val();
     var venueLocation = $('select.location_dropdown-content').val();
+    var venueCapacity = $('select.capacity_dropdown-content').val();
+    var venueGenre = $('select.genre_dropdown-content').val();
+    var venueEvent = $('select.event_dropdown-content').val();
 
 
     $('.c-container')
@@ -96,41 +115,35 @@ function updateVenue() {
         .filter(function () {
             var okName = true;
             var okLocation = true;
+            var okCapacity = true;
+            var okGenre = true;
+            var okEvent = true;
 
             if (venueName !== "All Venues") {
                 okName = $(this).attr('data-name') === venueName;
-                console.log(okName);
-                console.log(venueName);
-
             }
 
             if (venueLocation !== "All Locations") {
                 okLocation = $(this).attr('data-location') === venueLocation;
-                console.log(okLocation);
-                console.log(venueLocation);
+            }
+
+            if (venueCapacity !== "All Capacities") {
+                okCapacity = $(this).attr('data-capacity') === venueCapacity;
+            }
+
+            if (venueGenre !== "All Desired Genres") {
+                okGenre = $(this).attr('data-genre') === venueGenre;
+            }
+
+            if (venueEvent !== "All Amounts") {
+                okEvent = $(this).attr('data-event') === venueEvent;
             }
 
 
-            return okName && okLocation;
+
+            return okName && okLocation && okCapacity && okGenre && okEvent;
 
         }).fadeIn('fast');
-
-    $('.name_dropdown')
-        .find('#myInput')
-        .hide()
-        .filter(function () {
-            var okSearch = true;
-
-            if (search !== '') {
-                okSearch = $(this).text().toUpperCase().indexOf(search) > -1;
-                console.log(okSearch);
-            }
-            else {
-                okSearch = true;
-            }
-
-            return okSearch;
-        })
 
 }
 

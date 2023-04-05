@@ -20,8 +20,12 @@ d3.csv('../assets/data/PerformerData.csv')
         const postElement = document.createElement('div');
         postElement.classList.add('card-container');
         postElement.setAttribute('data-name', postData.Name);
+        postElement.setAttribute('data-genre', postData.Genre);
+        postElement.setAttribute('data-hometown', postData.Hometown);
+        postElement.setAttribute('data-playtime', postData.maxPlayTime);
+        postElement.setAttribute('data-distance', postData.distanceFromYou);
         postElement.innerHTML = `
-            <div class="our-venue" href="../assets/html/performerProfile.html">
+            <div class="our-performer" href="../assets/html/performerProfile.html">
               <a class="nav-link" href="performerProfile.html"</a> 
               <div class="picture">
                 <img class="img-fluid" src="https://source.unsplash.com/random/800x800/?img=1">
