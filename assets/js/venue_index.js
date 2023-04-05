@@ -1,31 +1,32 @@
 let cardData = [];
 d3.csv('../assets/data/VenueData.csv')
-    .then(data => {
-        data.forEach(d => {
-            _data = data;
-            d.Capacity = +d.Capacity;
-        })
+  .then(data => {
+    data.forEach(d => {
+      _data = data;
+      d.Capacity = +d.Capacity;
+    })
 
 
 
-        for (let i = 0; i < count; i++) {
-            cardData[i] = data[i];
-        };
-        console.log(cardData);
-        cardData.shift();
+    for (let i = 0; i < count; i++) {
+      cardData[i] = data[i];
+    };
+    console.log(cardData);
+    cardData.shift();
 
-        const postcontainer = document.querySelector('.c-container');
+    const postcontainer = document.querySelector('.c-container');
 
-        const cardMethods = () => {
-            cardData.map((postData) => {
-                const postElement = document.createElement('div');
-                postElement.classList.add('card-container');
-                postElement.setAttribute('data-name', postData.Name);
-                postElement.innerHTML = `
+    const cardMethods = () => {
+      cardData.map((postData) => {
+        const postElement = document.createElement('div');
+        postElement.classList.add('card-container');
+        postElement.setAttribute('data-name', postData.Name);
+        postElement.setAttribute('data-location', postData.Location);
+        postElement.innerHTML = `
             <div class="our-venue" href="../assets/html/performerProfile.html">
               <a class="nav-link" href="venueProfile.html"</a> 
               <div class="picture">
-                <img class="img-fluid" src="https://source.unsplash.com/random/800x800/?img=1">
+                <img class="img-fluid" src="https://source.unsplash.com/random/800x800/?1">
               </div>
               <div class="team-content" }>
                 <h3 class="name">${postData.Name}</h3>
@@ -40,9 +41,9 @@ d3.csv('../assets/data/VenueData.csv')
               </ul>
             </div>
         `
-                postcontainer.appendChild(postElement)
-            })
-        }
-        cardMethods();
+        postcontainer.appendChild(postElement)
+      })
+    }
+    cardMethods();
 
-    });
+  });
