@@ -2216,7 +2216,12 @@ hr {
 }
 
 .page-footer-section.bg-dark .caption {
+  border-color: #4d4853;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.page-footer-section.bg-dark.fg-white {
+  border-color: #4d4853;
 }
 
 .page-footer-section.bg-dark hr {

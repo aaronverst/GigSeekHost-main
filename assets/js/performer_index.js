@@ -28,7 +28,7 @@ d3.csv('../assets/data/PerformerData.csv')
             <div class="our-performer" href="../assets/html/performerProfile.html">
               <a class="nav-link" href="performerProfile.html"</a> 
               <div class="picture">
-                <img class="img-fluid" src="https://source.unsplash.com/random/800x800/?img=1">
+                <img class="img-fluid">
               </div>
               <div class="team-content" }>
                 <h3 class="name">${postData.Name}</h3>
@@ -44,6 +44,7 @@ d3.csv('../assets/data/PerformerData.csv')
             </div>
         `
         postcontainer.appendChild(postElement)
+        generatePerformerImage();
       })
     }
     cardMethods();

@@ -4554,8 +4554,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav {
-  width: 400px;
-  /* left: 100px; */
+  width: 388px;
+  /* left: -100px; */
   justify-content: flex-end;
   display: flex;
   flex-direction: column;

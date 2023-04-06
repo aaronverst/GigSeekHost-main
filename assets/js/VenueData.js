@@ -54,18 +54,18 @@ d3.csv('../assets/data/VenueData.csv')
             capacityContainer.appendChild(capacityElement);
         };
 
-        const genreContainer = document.getElementById("genreDropdown");
+        const desiredGenreContainer = document.getElementById("desiredGenreDropdown");
 
         $(document).ready(function () {
-            $(".genre_dropdown-content").select2();
+            $(".desiredGenre_dropdown-content").select2();
         });
 
         for (let i = 0; i < allGenres.length; i++) {
-            var genreElement = document.createElement('option');
-            genreElement.value = allGenres[i][0];
-            genreElement.innerHTML = allGenres[i][0];
+            var desiredGenreElement = document.createElement('option');
+            desiredGenreElement.value = allGenres[i][0];
+            desiredGenreElement.innerHTML = allGenres[i][0];
 
-            genreContainer.appendChild(genreElement);
+            desiredGenreContainer.appendChild(desiredGenreElement);
         };
 
         const eventContainer = document.getElementById("eventDropdown");
@@ -92,20 +92,20 @@ function venueDropdown() {
     document.getElementById("nameDropdown").classList.toggle("show");
     document.getElementById("locationDropdown").classList.toggle("show");
     document.getElementById("capacityDropdown").classList.toggle("show");
-    document.getElementById("genreDropdown").classList.toggle("show");
+    document.getElementById("desiredGenreDropdown").classList.toggle("show");
     document.getElementById("eventDropdown").classList.toggle("show");
 
 };
 
 venueDropdown();
 
-$("select.name_dropdown-content, select.location_dropdown-content, select.capacity_dropdown-content, select.genre_dropdown-content, select.event_dropdown-content").change(updateVenue);
+$("select.name_dropdown-content, select.location_dropdown-content, select.capacity_dropdown-content, select.desiredGenre_dropdown-content, select.event_dropdown-content").change(updateVenue);
 
 function updateVenue() {
     var venueName = $('select.name_dropdown-content').val();
     var venueLocation = $('select.location_dropdown-content').val();
     var venueCapacity = $('select.capacity_dropdown-content').val();
-    var venueGenre = $('select.genre_dropdown-content').val();
+    var venueGenre = $('select.desiredGenre_dropdown-content').val();
     var venueEvent = $('select.event_dropdown-content').val();
 
 
@@ -132,7 +132,7 @@ function updateVenue() {
             }
 
             if (venueGenre !== "All Desired Genres") {
-                okGenre = $(this).attr('data-genre') === venueGenre;
+                okGenre = $(this).attr('data-desiredGenre') === venueGenre;
             }
 
             if (venueEvent !== "All Amounts") {

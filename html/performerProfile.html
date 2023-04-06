@@ -9,8 +9,6 @@
 
   <meta name="description" content="Mobile Application HTML5 Template">
 
-  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
-
   <title>Gigseek - Premier Booking Experience</title>
 
   <link rel="shortcut icon" href="../assets/img/icons/gigseekMinimal.png" type="image/x-icon">
@@ -43,19 +41,16 @@
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link"> </a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="searchForVenue.html">Blog</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="updates.html">What's New</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="performerProfile.html">Contact</a>
           </li>
         </ul>
         <div class="ml-auto my-2 my-lg-0">
@@ -74,17 +69,10 @@
           <div class="row justify-content-center align-items-center text-center h-100">
             <div class="col-lg-6">
               <h3 class="mb-4 fw-medium">Performer Name</h3>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
-                  <li class="breadcrumb-item"><a href="searchForPerformer.html">Search</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Performer Name</li>
-                </ol>
-                <div class="our-performer wow fadeInUp">
-                  <div class="picture">
-                    <img class="img-fluid" src="../assets/img/icons/killers.jpg">
-                  </div>
-                </div>
-              </nav>
+              <ol class="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
+                <li class="breadcrumb-item"><a href="searchForPerformer.html">Search</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Performer Name</li>
+              </ol>
             </div>
           </div>
         </div>
@@ -93,6 +81,13 @@
 
     <div class="page-section">
       <div class="container">
+        <nav aria-label="breadcrumb">
+          <div class="our-performer wow fadeInUp">
+            <div class="picture">
+              <img class="img-fluid" src="../assets/img/icons/killers.jpg">
+            </div>
+          </div>
+        </nav>
         <div class="row justify-content-center">
           <div class="col-lg-10 my-3 wow fadeInUp">
             <div class="card-page">
@@ -189,7 +184,8 @@
   </div> <!-- .bg-light -->
 
 
-  <div class="page-footer-section bg-dark fg-white">
+  <div class="page-footer-section bg-dark fg-white" style="border-style: solid;
+  border-color: #4d4853 transparent;">
     <div class="container">
       <div class="row mb-5 py-3">
         <div class="col-sm-6 col-lg-2 py-3">
@@ -198,7 +194,6 @@
             <li><a href="#" class="">Features</a></li>
             <li><a href="#" class="">Customers</a></li>
             <li><a href="#" class="">Pricing</a></li>
-            <li><a href="#" class="">GDPR</a></li>
           </ul>
         </div>
         <div class="col-sm-6 col-lg-2 py-3">
@@ -216,9 +211,8 @@
           <ul class="menu-link">
             <li><a href="#" class="">Contact Us</a></li>
             <li><a href="#" class="">Office Location</a></li>
-            <li><a href="#" class="">hello@mobster.com</a></li>
-            <li><a href="#" class="">support@macodeid.com</a></li>
-            <li><a href="#" class="">+808 11233 900</a></li>
+            <li><a href="#" class="">gigseek.com</a></li>
+            <li><a href="#" class="">+808 113 3900</a></li>
           </ul>
         </div>
         <div class="col-md-6 col-lg-4 py-3">
@@ -249,10 +243,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6 py-2">
-          <img src="../assets/favicon-light.png" alt="" width="40">
-          <!-- Please don't remove or modify the credits below -->
-          <p class="d-inline-block ml-2">Copyright &copy; <a href="https://www.macodeid.com/"
-              class="fg-white fw-medium">MACode ID</a>. All rights reserved</p>
+          <img src="../assets/img/icons/gigseek.png" alt="" width="120">
         </div>
         <div class="col-12 col-md-6 py-2">
           <ul class="nav justify-content-end">
@@ -284,6 +275,8 @@
   <script src="../assets/js/google-maps.js"></script>
 
   <script src="../assets/js/smoothScroller.js"></script>
+
+  <script src="../assets/js/PerformerImgGenerator.js"></script>
 
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>

@@ -8,7 +8,7 @@ document.getElementById("VenueImageHolder").onload = function () {
 */
 var retvalue = randomIntFromInterval(1, 3);
 
-function generateImage() {
+function generateVenueImage() {
 
     var blocks = document.getElementsByClassName("picture");
     var i;

@@ -23,7 +23,7 @@ d3.csv('../assets/data/VenueData.csv')
         postElement.setAttribute('data-name', postData.Name);
         postElement.setAttribute('data-location', postData.Location);
         postElement.setAttribute('data-capacity', postData.Capacity);
-        postElement.setAttribute('data-genre', postData.DesiredGenre);
+        postElement.setAttribute('data-desiredGenre', postData.DesiredGenre);
         postElement.setAttribute('data-event', postData.EventsHeld);
         postElement.innerHTML = `
             <div class="our-venue" href="../assets/html/performerProfile.html">
@@ -46,8 +46,8 @@ d3.csv('../assets/data/VenueData.csv')
         `
         //document.getElementById('imageholder') = '../assets/img/icons/killers.jpg';
         postcontainer.appendChild(postElement);
-        generateImage();
-        console.log(generateImage());
+        generateVenueImage();
+        console.log(generateVenueImage());
       })
     }
     cardMethods();

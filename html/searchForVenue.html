@@ -9,8 +9,6 @@
 
   <meta name="description" content="Mobile Application HTML5 Template">
 
-  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
-
   <title>Gigseek - Premier Booking Experience</title>
 
   <link rel="shortcut icon" href="../assets/img/icons/gigseekMinimal.png" type="image/x-icon">
@@ -52,16 +50,13 @@
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="performerIndex.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="performerAbout.html">About</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="searchForVenue.html">Find Venues</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="performerUpdates.html">What's New</a>
+            <a class="nav-link" href="updates.html">What's New</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="venueProfile.html">Contact</a>
@@ -112,9 +107,9 @@
               <select id="capacityDropdown" class="capacity_dropdown-content">
               </select>
             </div>
-            <div class="genre_dropdown">
-              <label for="genreDropdown"> Desired Genre: </label>
-              <select id="genreDropdown" class="genre_dropdown-content">
+            <div class="desiredGenre_dropdown">
+              <label for="desiredGenreDropdown"> Desired Genre: </label>
+              <select id="desiredGenreDropdown" class="desiredGenre_dropdown-content">
               </select>
             </div>
             <div class="event_dropdown">
@@ -125,97 +120,6 @@
 
             <div class="c-container">
             </div>
-            <!-- Sidebar -->
-            <!-- <div class="col-lg-4 py-3">
-              <div class="widget-wrap">
-                <form action="#" class="search-form">
-                  <h3 class="widget-title">Search</h3>
-                  <div class="form-group">
-                    <span class="icon mai-search"></span>
-                    <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
-                  </div>
-                </form>
-              </div>
-
-              <div class="widget-wrap">
-                <h3 class="widget-title">Jobs</h3>
-                <ul class="categories">
-                  <li><a href="#">Graphic Designer <span>12</span></a></li>
-                  <li><a href="#">Visual Assistant <span>22</span></a></li>
-                  <li><a href="#">Programing <span>37</span></a></li>
-                  <li><a href="#">Office Admin <span>42</span></a></li>
-                  <li><a href="#">Web Designer <span>14</span></a></li>
-                  <li><a href="#">Language <span>140</span></a></li>
-                </ul>
-              </div>
-
-              <div class="widget-wrap">
-                <h3 class="widget-title">Recent Blog</h3>
-                <div class="blog-widget">
-                  <div class="blog-img">
-                    <img src="../assets/img/blogs/blog_1.jpg" alt="">
-                  </div>
-                  <div class="entry-footer">
-                    <div class="blog-title mb-2"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl
-                        pretium</a></div>
-                    <div class="meta">
-                      <a href="#"><span class="icon-calendar"></span> July 12, 2018</a>
-                      <a href="#"><span class="icon-person"></span> Admin</a>
-                      <a href="#"><span class="icon-chat"></span> 19</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="blog-widget">
-                  <div class="blog-img">
-                    <img src="../assets/img/blogs/blog_2.jpg" alt="">
-                  </div>
-                  <div class="entry-footer">
-                    <div class="blog-title mb-2"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl
-                        pretium</a></div>
-                    <div class="meta">
-                      <a href="#"><span class="icon-calendar"></span> July 12, 2018</a>
-                      <a href="#"><span class="icon-person"></span> Admin</a>
-                      <a href="#"><span class="icon-chat"></span> 19</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="blog-widget">
-                  <div class="blog-img">
-                    <img src="../assets/img/blogs/blog_3.jpg" alt="">
-                  </div>
-                  <div class="entry-footer">
-                    <div class="blog-title mb-2"><a href="#">Duis feugiat neque sed dolor cursus, sed lacinia nisl
-                        pretium</a></div>
-                    <div class="meta">
-                      <a href="#"><span class="icon-calendar"></span> July 12, 2018</a>
-                      <a href="#"><span class="icon-person"></span> Admin</a>
-                      <a href="#"><span class="icon-chat"></span> 19</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="widget-wrap">
-                <h3 class="widget-title">Tag Cloud</h3>
-                <div class="tag-clouds">
-                  <a href="#" class="tag-cloud-link">dish</a>
-                  <a href="#" class="tag-cloud-link">menu</a>
-                  <a href="#" class="tag-cloud-link">food</a>
-                  <a href="#" class="tag-cloud-link">sweet</a>
-                  <a href="#" class="tag-cloud-link">tasty</a>
-                  <a href="#" class="tag-cloud-link">delicious</a>
-                  <a href="#" class="tag-cloud-link">desserts</a>
-                  <a href="#" class="tag-cloud-link">drinks</a>
-                </div>
-              </div>
-
-              <div class="widget-wrap">
-                <h3 class="widget-title">Paragraph</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus
-                  voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique,
-                  inventore eos fugit cupiditate numquam!</p>
-              </div>
-            </div> end sidebar -->
           </div>
         </div>
       </div>
@@ -294,6 +198,78 @@
               with the performers or venues that you make connections with.
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer-section bg-dark fg-white" style="border-style: solid;
+  border-color: #4d4853 transparent;">
+    <div class="container">
+      <div class="row mb-5 py-3">
+        <div class="col-sm-6 col-lg-2 py-3">
+          <h5 class="mb-3">Pages</h5>
+          <ul class="menu-link">
+            <li><a href="#" class="">Features</a></li>
+            <li><a href="#" class="">Customers</a></li>
+            <li><a href="#" class="">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2 py-3">
+          <h5 class="mb-3">Company</h5>
+          <ul class="menu-link">
+            <li><a href="#" class="">About</a></li>
+            <li><a href="#" class="">Team</a></li>
+            <li><a href="#" class="">Leadership</a></li>
+            <li><a href="#" class="">Careers</a></li>
+            <li><a href="#" class="">HIRING!</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-4 py-3">
+          <h5 class="mb-3">Contact</h5>
+          <ul class="menu-link">
+            <li><a href="#" class="">Contact Us</a></li>
+            <li><a href="#" class="">Office Location</a></li>
+            <li><a href="#" class="">gigseek.com</a></li>
+            <li><a href="#" class="">+808 113 3900</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-4 py-3">
+          <h5 class="mb-3">Subscribe</h5>
+          <p>Get some offers, news, or update features of application</p>
+          <form method="POST">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Your email..">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-primary"><span class="mai-send"></span></button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Social Media Button -->
+          <div class="mt-4">
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></a>
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></a>
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></a>
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 py-2">
+          <img src="../assets/img/icons/gigseek.png" alt="" width="120">
+        </div>
+        <div class="col-12 col-md-6 py-2">
+          <ul class="nav justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link">Terms of Use</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Cookie Policy</a></li>
+          </ul>
         </div>
       </div>
     </div>
