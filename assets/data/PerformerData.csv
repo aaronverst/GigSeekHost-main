@@ -1,52 +1,301 @@
 Name,Genre,Hometown,maxPlayTime,distanceFromYou
 All Performers,All Genres,All Hometowns,All Play Times,All Distances
-The Velvet Haze,Rock,"Los Angeles, CA",30,2000
-Moonlight Serenade,Country,"Nashville, TN",45,250
-Electric Vortex,Alternative,"Los Angeles, CA",45,2000
-The Midnight Riders,Jazz,"Los Angeles, CA",60,2000
-Crimson Horizon,Electronic,"Los Angeles, CA",30,2000
-Blackout Boulevard,Pop,"Pittsburg, PA",60,300
-Northern Lights,Reggae,"Los Angeles, CA",120,2000
-The Mystic Minds,Comedy,"Los Angeles, CA",30,2000
-The Golden Echoes,Alternative,"Los Angeles, CA",90,2000
-Thunderbolt Symphony,Rock,"Cincinnati, OH",60,10
-Wildfire Brigade,Rock,"Pittsburg, PA",90,300
-Sunset Syndicate,Country,"Nashville, TN",45,250
-Solar Flare,Alternative,"Cincinnati, OH",90,10
-The Silver Lining,Jazz,"Cincinnati, OH",30,10
-The Neon Lights,Electronic,"Cincinnati, OH",60,10
-The Cosmic Crusaders,Pop,"Cincinnati, OH",30,10
-Electric Oasis,Reggae,"Miami, FL",120,1000
-Velvet Undergrounders,Comedy,"Cincinnati, OH",45,10
-The Wandering Souls,Alternative,"Cincinnati, OH",120,10
-The Dream Weavers,Rock,"Pittsburg, PA",60,300
-The Dark Knights,Rock,"Miami, FL",90,1000
-The Radiant Rebels,Country,"Nashville, TN",30,250
-The Electric Souls,Alternative,"Miami, FL",60,1000
-The Enchanted Echoes,Jazz,"Miami, FL",30,1000
-The Mystic Melodies,Electronic,"Miami, FL",60,1000
-The Phoenix Flames,Pop,"Pittsburg, PA",60,300
-The Rustic Rhythms,Reggae,"Miami, FL",30,1000
-The Sapphire Skies,Comedy,"Dallas, TX",120,1000
-The Shadow Shakers,Pop,"Miami, FL",30,1000
-The Sonic Boomers,Pop,"Dallas, TX",90,1000
-The Starry Night,Rock,"Dallas, TX",45,1000
-The Sunset Sounds,Country,"Nashville, TN",90,250
-The Thundering Hooves,Alternative,"Dallas, TX",45,1000
-The Uncharted Waters,Jazz,"Dallas, TX",90,1000
-The Velvet Vibes,Electronic,"Dallas, TX",120,1000
-The Wildflower Band,Pop,"Indianapolis, IN",30,100
-The Zenith Zephyrs,Reggae,"Indianapolis, IN",120,100
-The Aurora Borealis,Comedy,"Indianapolis, IN",45,100
-The Black Diamond Band,Rock,"Dallas, TX",90,1000
-The Cosmic Collision,Pop,"Chicago, IL",120,300
-The Electric Euphoria,Rock,"Chicago, IL",30,300
-The Lunar Lights,Country,"Nashville, TN",90,250
-The Midnight Mirage,Alternative,"Chicago, IL",90,300
-The Northern Cross,Jazz,"Chicago, IL",30,300
-The Rustic Rhapsody,Electronic,"Chicago, IL",90,300
-The Sapphire Stars,Pop,"Cleveland, OH",30,250
-The Solar Serenade,Reggae,"Cleveland, OH",60,250
-The Stellar Serenade,Comedy,"Cleveland, OH",60,250
-The Thunderous Oceans,Alternative,"Cleveland, OH",30,250
-The Velvet Visions,Pop,"Pittsburg, PA",60,300
+Electric Echoes,Rock,"Chicago, IL",30,10
+Midnight Mirage,Country,"Cincinnati, OH",45,250
+Crystal Crypt,Pop,"Cleveland, OH",60,300
+The Chromatic Chaos,Reggae,"Dallas, TX",90,1000
+Electric Euphoria,Rock,"Indianapolis, IN",120,2000
+The Neon Nights,Alternative,"Los Angeles, CA",45,2000
+Cosmic Catastrophe,Jazz,"Los Angeles, CA",60,2000
+Velvet Voodoo,Electronic,"Los Angeles, CA",90,2000
+The Secret Society,Reggae,"Los Angeles, CA",120,2000
+Solar Serenade,Comedy,"Los Angeles, CA",30,2000
+The Radiant Rebels,Alternative,"Los Angeles, CA",90,2000
+Velvet Underground,Rock,"Miami, FL",90,300
+Diamond Dust,Country,"Nashville, TN",45,250
+The Mystic Maelstrom,Alternative,"Cincinnati, OH",90,10
+Starlight Symphony,Jazz,"Cincinnati, OH",30,10
+Crimson Coven,Electronic,"Cincinnati, OH",60,10
+Lunar Lullaby,Pop,"Cincinnati, OH",30,10
+Dark Delirium,Comedy,"Cincinnati, OH",45,10
+The Sonic Sorcerers,Alternative,"Cincinnati, OH",120,10
+Glittering Ghouls,Rock,"Pittsburg, PA",60,300
+The Chromatic Cataclysm,Rock,"Miami, FL",90,1000
+Lunar Lullaby,Country,"Nashville, TN",30,250
+The Mystic Maelstrom,Alternative,"Miami, FL",60,1000
+Starlight Symphony,Jazz,"Miami, FL",30,1000
+Crimson Coven,Electronic,"Miami, FL",60,1000
+Lunar Lullaby,Pop,"Pittsburg, PA",60,300
+The Chromatic Chaos,Reggae,"Miami, FL",30,1000
+Dark Delirium,Comedy,"Dallas, TX",120,1000
+The Sonic Sorcerers,Pop,"Miami, FL",30,1000
+Glittering Ghouls,Pop,"Dallas, TX",90,1000
+The Chromatic Cataclysm,Rock,"Dallas, TX",45,1000
+The Silver Serpents,Country,"Nashville, TN",90,250
+The Velvet Visions,Alternative,"Dallas, TX",45,1000
+Mystic Mayhem,Jazz,"Dallas, TX",90,1000
+Electric Eclipse,Electronic,"Dallas, TX",120,1000
+Neon Nostalgia,Pop,"Indianapolis, IN",30,100
+The Enchanted Echoes,Reggae,"Indianapolis, IN",120,100
+The Stellar Squad,Comedy,"Indianapolis, IN",45,100
+The Sapphire Skyline,Rock,"Dallas, TX",90,1000
+Radiant Rebellion,Pop,"Chicago, IL",120,300
+The Velvet Vortex,Rock,"Chicago, IL",30,300
+The Galactic Groove,Country,"Nashville, TN",90,250
+The Cosmic Collision,Alternative,"Chicago, IL",90,300
+Electric Eden,Jazz,"Chicago, IL",30,300
+Midnight Mirage,Electronic,"Chicago, IL",90,300
+Neon Nights,Pop,"Cleveland, OH",30,250
+Cosmic Catastrophe,Reggae,"Cleveland, OH",60,250
+Velvet Voodoo,Comedy,"Cleveland, OH",60,250
+Crystal Crypt,Alternative,"Cleveland, OH",30,250
+The Secret Society,Pop,"Pittsburg, PA",60,300
+Solar Serenade,Rock,"Cincinnati, OH",45,10
+The Radiant Rebels,Country,"Nashville, TN",60,250
+Electric Echoes,Pop,"Pittsburg, PA",90,300
+Velvet Underground,Reggae,"Miami, FL",120,1000
+Diamond Dust,Rock,"Los Angeles, CA",30,2000
+The Mystic Maelstrom,Alternative,"Los Angeles, CA",90,2000
+Starlight Symphony,Jazz,"Los Angeles, CA",90,2000
+Crimson Coven,Electronic,"Los Angeles, CA",45,2000
+Lunar Lullaby,Reggae,"Los Angeles, CA",90,2000
+The Chromatic Chaos,Comedy,"Los Angeles, CA",45,2000
+Dark Delirium,Alternative,"Los Angeles, CA",90,2000
+The Sonic Sorcerers,Rock,"Pittsburg, PA",45,300
+Glittering Ghouls,Country,"Nashville, TN",90,250
+The Chromatic Cataclysm,Alternative,"Cincinnati, OH",120,10
+The Silver Serpents,Jazz,"Cincinnati, OH",30,10
+The Velvet Visions,Electronic,"Cincinnati, OH",120,10
+Mystic Mayhem,Pop,"Cincinnati, OH",45,10
+Electric Eclipse,Comedy,"Cincinnati, OH",120,10
+Neon Nostalgia,Alternative,"Cincinnati, OH",30,10
+The Enchanted Echoes,Rock,"Pittsburg, PA",90,300
+The Stellar Squad,Rock,"Miami, FL",90,1000
+The Sapphire Skyline,Country,"Nashville, TN",45,250
+Radiant Rebellion,Alternative,"Miami, FL",90,1000
+The Velvet Vortex,Jazz,"Miami, FL",45,1000
+The Galactic Groove,Electronic,"Miami, FL",90,1000
+The Cosmic Collision,Pop,"Pittsburg, PA",45,300
+Electric Eden,Reggae,"Miami, FL",90,1000
+Midnight Mirage,Comedy,"Dallas, TX",120,1000
+Neon Nights,Pop,"Miami, FL",30,1000
+Cosmic Catastrophe,Pop,"Dallas, TX",90,1000
+Velvet Voodoo,Rock,"Dallas, TX",90,1000
+Crystal Crypt,Country,"Nashville, TN",45,250
+The Secret Society,Alternative,"Dallas, TX",90,1000
+Solar Serenade,Jazz,"Dallas, TX",30,1000
+The Radiant Rebels,Electronic,"Dallas, TX",90,1000
+Electric Echoes,Pop,"Indianapolis, IN",120,100
+Velvet Underground,Reggae,"Indianapolis, IN",30,100
+Diamond Dust,Comedy,"Indianapolis, IN",120,100
+The Mystic Maelstrom,Rock,"Dallas, TX",45,1000
+Starlight Symphony,Pop,"Chicago, IL",90,300
+Crimson Coven,Rock,"Chicago, IL",120,300
+Lunar Lullaby,Country,"Nashville, TN",30,250
+The Chromatic Chaos,Alternative,"Chicago, IL",90,300
+Dark Delirium,Jazz,"Chicago, IL",90,300
+The Sonic Sorcerers,Electronic,"Chicago, IL",30,300
+Glittering Ghouls,Pop,"Cleveland, OH",90,250
+The Chromatic Cataclysm,Reggae,"Cleveland, OH",30,250
+The Silver Serpents,Comedy,"Cleveland, OH",60,250
+The Velvet Visions,Alternative,"Cleveland, OH",60,250
+Mystic Mayhem,Pop,"Pittsburg, PA",30,300
+Electric Eclipse,Rock,"Cincinnati, OH",60,10
+Neon Nostalgia,Country,"Nashville, TN",45,250
+The Enchanted Echoes,Pop,"Pittsburg, PA",90,300
+The Stellar Squad,Reggae,"Miami, FL",30,1000
+The Sapphire Skyline,Rock,"Los Angeles, CA",90,2000
+Radiant Rebellion,Alternative,"Los Angeles, CA",30,2000
+The Velvet Vortex,Jazz,"Los Angeles, CA",60,2000
+The Galactic Groove,Electronic,"Los Angeles, CA",60,2000
+The Cosmic Collision,Reggae,"Los Angeles, CA",30,2000
+Electric Eden,Comedy,"Los Angeles, CA",60,2000
+Midnight Mirage,Alternative,"Los Angeles, CA",45,2000
+Neon Nights,Rock,"Pittsburg, PA",60,300
+Cosmic Catastrophe,Country,"Nashville, TN",90,250
+Velvet Voodoo,Alternative,"Cincinnati, OH",120,10
+Electric Haze,Jazz,"Cincinnati, OH",30,10
+Velvet Thunder,Electronic,"Cincinnati, OH",90,10
+Neon Sunrise,Pop,"Cincinnati, OH",90,10
+Crimson Skies,Comedy,"Cincinnati, OH",45,10
+Starlight Serenade,Alternative,"Cincinnati, OH",90,10
+Blackout Brigade,Rock,"Pittsburg, PA",45,300
+Solar Eclipse,Rock,"Miami, FL",90,1000
+Silver Shadows,Country,"Nashville, TN",90,250
+The Midnight Ramblers,Alternative,"Miami, FL",45,1000
+Cosmic Cadence,Jazz,"Miami, FL",90,1000
+Thunderbird Symphony,Electronic,"Miami, FL",120,1000
+Blue Rhapsody,Pop,"Pittsburg, PA",30,300
+Solar Flare,Reggae,"Miami, FL",120,1000
+Electric Oasis,Comedy,"Dallas, TX",45,1000
+The Burning Bridges,Pop,"Miami, FL",120,1000
+The Astral Beings,Pop,"Dallas, TX",30,1000
+Sapphire Skies,Rock,"Dallas, TX",90,1000
+The Electric Dreamers,Country,"Nashville, TN",90,250
+Midnight Mirage,Alternative,"Dallas, TX",45,1000
+The Cosmic Crusaders,Jazz,"Dallas, TX",90,1000
+Oceanic Symphony,Electronic,"Dallas, TX",45,1000
+Thundering Hearts,Pop,"Indianapolis, IN",90,100
+Velvet Visions,Reggae,"Indianapolis, IN",45,100
+Electric Revolution,Comedy,"Indianapolis, IN",90,100
+The Neon Nights,Rock,"Dallas, TX",120,1000
+Lunar Lullaby,Pop,"Chicago, IL",30,300
+Sapphire Serenade,Rock,"Chicago, IL",120,300
+The Velvet Underground,Country,"Nashville, TN",45,250
+Electric Dreamscape,Alternative,"Chicago, IL",120,300
+Crimson Chronicles,Jazz,"Chicago, IL",30,300
+The Solar Symphony,Electronic,"Chicago, IL",90,300
+Blackout Boulevard,Pop,"Cleveland, OH",90,250
+The Cosmic Collective,Reggae,"Cleveland, OH",45,250
+Starlight Station,Comedy,"Cleveland, OH",90,250
+Silver Sunrise,Alternative,"Cleveland, OH",45,250
+The Midnight Movers,Pop,"Pittsburg, PA",60,300
+Thunderous Triumph,Rock,"Cincinnati, OH",45,10
+Bluebird Brigade,Country,"Nashville, TN",60,250
+Solar Serenade,Pop,"Pittsburg, PA",90,300
+Electric Embrace,Reggae,"Miami, FL",120,1000
+The Burning Bridges,Rock,"Los Angeles, CA",30,2000
+The Astral Alliance,Alternative,"Los Angeles, CA",90,2000
+Sapphire Skies,Jazz,"Los Angeles, CA",90,2000
+The Electric Empire,Electronic,"Los Angeles, CA",90,2000
+Midnight Memories,Reggae,"Los Angeles, CA",45,2000
+The Cosmic Comets,Comedy,"Los Angeles, CA",90,2000
+Oceanic Overture,Alternative,"Los Angeles, CA",120,2000
+Thundering Echoes,Rock,"Pittsburg, PA",30,300
+Velvet Vortex,Country,"Nashville, TN",120,250
+Electric Euphoria,Alternative,"Cincinnati, OH",45,10
+The Neon Nostalgia,Jazz,"Cincinnati, OH",120,10
+Lunar Lullaby,Electronic,"Cincinnati, OH",30,10
+Sapphire Sonata,Pop,"Cincinnati, OH",90,10
+The Velvet Vibes,Comedy,"Cincinnati, OH",90,10
+Electric Enigma,Alternative,"Cincinnati, OH",45,10
+Crimson Connection,Rock,"Pittsburg, PA",90,300
+The Solar Sirens,Rock,"Miami, FL",45,1000
+Blackout Beats,Country,"Nashville, TN",45,250
+The Cosmic Conundrum,Alternative,"Miami, FL",60,1000
+Starlight Serenade,Jazz,"Miami, FL",90,1000
+Silver Symphony,Electronic,"Miami, FL",120,1000
+The Midnight Mavericks,Pop,"Pittsburg, PA",30,300
+Thundering Thunderbolts,Reggae,"Miami, FL",90,1000
+Bluebird Ballad,Comedy,"Dallas, TX",90,1000
+Solar Spotlight,Pop,"Miami, FL",90,1000
+Electric Eden,Pop,"Dallas, TX",45,1000
+The Burning Bridges,Rock,"Dallas, TX",90,1000
+The Astral Assembly,Country,"Nashville, TN",120,250
+Sapphire Soundscape,Alternative,"Dallas, TX",30,1000
+The Electric Elements,Jazz,"Dallas, TX",120,1000
+Midnight Mirage,Electronic,"Dallas, TX",45,1000
+The Cosmic Crew,Pop,"Indianapolis, IN",90,100
+Oceanic Odyssey,Reggae,"Indianapolis, IN",30,100
+Thundering Thunderstruck,Comedy,"Indianapolis, IN",60,100
+Velvet Visions,Rock,"Dallas, TX",60,1000
+Electric Equilibrium,Pop,"Chicago, IL",30,300
+The Neon Noise,Rock,"Chicago, IL",60,300
+Lunar Lullaby,Country,"Nashville, TN",45,250
+Sapphire Sunrise,Alternative,"Chicago, IL",60,300
+The Velvet Vortex,Jazz,"Chicago, IL",90,300
+Electric Equinox,Electronic,"Chicago, IL",120,300
+Crimson Calling,Pop,"Cleveland, OH",30,250
+The Solar Songbirds,Reggae,"Cleveland, OH",90,250
+Blackout Blues,Comedy,"Cleveland, OH",90,250
+The Cosmic Cadets,Alternative,"Cleveland, OH",45,250
+Starlight Symphony,Pop,"Pittsburg, PA",90,300
+Silver Screen,Rock,"Cincinnati, OH",45,10
+The Midnight Melodies,Country,"Nashville, TN",90,250
+Thunderous Thunderbolts,Pop,"Pittsburg, PA",120,300
+Bluebird Blues,Reggae,"Miami, FL",30,1000
+Solar Soiree,Rock,"Los Angeles, CA",120,2000
+Electric Enchantment,Alternative,"Los Angeles, CA",45,2000
+The Burning Bridges,Jazz,"Los Angeles, CA",90,2000
+The Astral Army,Electronic,"Los Angeles, CA",30,2000
+Sapphire Symphony,Reggae,"Los Angeles, CA",60,2000
+The Electric Experience,Comedy,"Los Angeles, CA",60,2000
+Midnight Magic,Alternative,"Los Angeles, CA",30,2000
+The Cosmic Cosmos,Rock,"Pittsburg, PA",60,300
+Oceanic Opus,Country,"Nashville, TN",45,250
+Thunderous Thunderstorms,Alternative,"Cincinnati, OH",60,10
+Velvet Visions,Jazz,"Cincinnati, OH",90,10
+Electric Evolution,Electronic,"Cincinnati, OH",120,10
+The Neon Nation,Pop,"Cincinnati, OH",45,10
+Lunar Love,Comedy,"Cincinnati, OH",90,10
+Sapphire Serenade,Alternative,"Cincinnati, OH",120,10
+The Velvet Vibe,Rock,"Pittsburg, PA",30,300
+Electric Eclipse,Rock,"Miami, FL",120,1000
+Crimson Chaos,Country,"Nashville, TN",45,250
+The Solar Storm,Alternative,"Miami, FL",120,1000
+Blackout Ballad,Jazz,"Miami, FL",30,1000
+The Cosmic Connection,Electronic,"Miami, FL",90,1000
+Starlight Symphony,Pop,"Pittsburg, PA",90,300
+Silver Storm,Reggae,"Miami, FL",120,1000
+The Midnight Masters,Comedy,"Dallas, TX",30,1000
+Thundering Thunderbirds,Pop,"Miami, FL",120,1000
+Bluebird Beat,Pop,"Dallas, TX",45,1000
+Solar Serenade,Rock,"Dallas, TX",120,1000
+Electric Enchantment,Country,"Nashville, TN",30,250
+The Burning Bridges,Alternative,"Dallas, TX",90,1000
+The Astral Attic,Jazz,"Dallas, TX",90,1000
+Sapphire Serenade,Electronic,"Dallas, TX",45,1000
+The Electric Ensemble,Pop,"Indianapolis, IN",90,100
+Midnight M,Reggae,"Indianapolis, IN",45,100
+Solar Circuit,Comedy,"Indianapolis, IN",45,100
+Nightfall Nostalgia,Rock,"Dallas, TX",60,1000
+Electric Evolution,Pop,"Chicago, IL",90,300
+Velvet Voltage,Rock,"Chicago, IL",90,300
+Thunderous Thrill,Country,"Nashville, TN",120,250
+The Cosmic Cataclysm,Alternative,"Chicago, IL",45,300
+Lunar Lullaby,Jazz,"Chicago, IL",90,300
+Blackout Bliss,Electronic,"Chicago, IL",120,300
+Silver Sunburst,Pop,"Cleveland, OH",30,250
+The Midnight Mavericks,Reggae,"Cleveland, OH",120,250
+Bluebird Blues,Comedy,"Cleveland, OH",45,250
+Solar Solstice,Alternative,"Cleveland, OH",120,250
+Electric Eclipse,Pop,"Pittsburg, PA",30,300
+Crimson Crescendo,Rock,"Cincinnati, OH",120,10
+The Astral Assembly,Country,"Nashville, TN",45,250
+Sapphire Soundwave,Pop,"Pittsburg, PA",120,300
+The Neon Nerve,Reggae,"Miami, FL",30,1000
+Starlight Symphony,Rock,"Los Angeles, CA",90,2000
+Thundering Tempest,Alternative,"Los Angeles, CA",90,2000
+Velvet Vortex,Jazz,"Los Angeles, CA",45,2000
+Electric Enigma,Electronic,"Los Angeles, CA",90,2000
+The Burning Bridges,Reggae,"Los Angeles, CA",45,2000
+The Cosmic Crusade,Comedy,"Los Angeles, CA",90,2000
+Oceanic Odyssey,Alternative,"Los Angeles, CA",90,2000
+Lunar Love,Rock,"Pittsburg, PA",45,300
+Sapphire Serenade,Country,"Nashville, TN",45,250
+The Electric Empire,Alternative,"Cincinnati, OH",60,10
+Midnight Mirage,Jazz,"Cincinnati, OH",90,10
+Blackout Brigade,Electronic,"Cincinnati, OH",90,10
+Silver Sunrise,Pop,"Cincinnati, OH",120,10
+The Midnight Movers,Comedy,"Cincinnati, OH",45,10
+Thunderbird Symphony,Alternative,"Cincinnati, OH",90,10
+Blue Rhapsody,Rock,"Pittsburg, PA",120,300
+Solar Serenade,Rock,"Miami, FL",30,1000
+Electric Equilibrium,Country,"Nashville, TN",120,250
+Crimson Chronicles,Alternative,"Miami, FL",45,1000
+The Astral Alliance,Jazz,"Miami, FL",120,1000
+Sapphire Skies,Electronic,"Miami, FL",30,1000
+The Neon Nights,Pop,"Pittsburg, PA",30,300
+Starlight Station,Reggae,"Miami, FL",120,1000
+Silver Shadows,Comedy,"Dallas, TX",45,1000
+Thunderous Triumph,Pop,"Miami, FL",120,1000
+Velvet Visions,Pop,"Dallas, TX",30,1000
+Electric Revolution,Rock,"Dallas, TX",90,1000
+Midnight Memories,Country,"Nashville, TN",90,250
+The Cosmic Comets,Alternative,"Dallas, TX",45,1000
+Oceanic Overture,Jazz,"Dallas, TX",90,1000
+Thundering Echoes,Electronic,"Dallas, TX",45,1000
+The Electric Dreamers,Pop,"Indianapolis, IN",60,100
+Lunar Lullaby,Reggae,"Indianapolis, IN",45,100
+Sapphire Sonata,Comedy,"Indianapolis, IN",60,100
+The Velvet Vibes,Rock,"Dallas, TX",90,1000
+Electric Enchantment,Pop,"Chicago, IL",120,300
+Crimson Connection,Rock,"Chicago, IL",30,300
+The Solar Sirens,Country,"Nashville, TN",90,250
+Blackout Beats,Alternative,"Chicago, IL",90,300
+The Cosmic Conundrum,Jazz,"Chicago, IL",90,300
+Starlight Serenade,Electronic,"Chicago, IL",45,300
+Silver Symphony,Pop,"Cleveland, OH",90,250
+The Midnight Melodies,Reggae,"Cleveland, OH",120,250
+Thunderous Thunderbolts,Comedy,"Cleveland, OH",30,250
+Starlight Shadows,Alternative,"Cleveland, OH",120,250

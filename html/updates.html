@@ -54,7 +54,8 @@
           </li>
         </ul>
         <div class="ml-auto my-2 my-lg-0">
-          <button class="btn btn-primary rounded-pill">Download Now</button>
+          <button class="btn btn-primary rounded-pill" onclick="smoothScroll(document.getElementById('scrollhere'))">See
+            What's New!</button>
         </div>
       </div>
     </div>
@@ -83,7 +84,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <div class="card-page">
+            <div class="card-page" id="scrollhere">
               <h3 class="mb-3">Welcome to Gigseek 1.0.0</h3>
 
               <p>Thank you for checking out the very first release of Gigseek!</p>
@@ -104,9 +105,12 @@
 
               <h5>Known Bugs as of release 1.0.0</h5>
               <ul class="theme-list">
-                <li class="list-item">New layout for Apple News+ stories from The Wall Street Journal and other leading
-                  newspapers</li>
-                <li class="list-item">Easily like or dislike stories with a tap</li>
+                <li class="list-item">Card selection on "Search Page" does not transfer selection data into "Profile"
+                  page.</li>
+                <li class="list-item">Due to "Search Page" indexing issues, initial load times are currently longer than
+                  expected.</li>
+                <li class="list-item">Selecting the "Send Event Request" button and selecting "OK" crashes the Profile
+                  page and the user is forced to return to the search page.</li>
               </ul>
             </div>
           </div>
@@ -205,6 +209,8 @@
     <script src="../assets/js/mobster.js"></script>
 
     <script src="../assets/js/google-maps.js"></script>
+
+    <script src="../assets/js/smoothScroller.js"></script>
 
     <script src="../assets/js/smoothScroller.js"></script>
 

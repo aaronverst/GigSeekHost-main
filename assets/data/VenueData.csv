@@ -1,17 +1,17 @@
 Name,Location,Capacity,DesiredGenre,EventsHeld
 All Venues,All Locations,All Capacities,All Desired Genres,All Amounts
-Bogarts,"Cincinnati, OH",1500,None,1000+
-The Stage House,"Indianapolis, IN",1500,Country,100+
-The Melody Hall,"Chicago, IL",1000,None,1000+
-The Ampitheatre,"Cleveland, OH",1000,Country,25+
-The Arena Club,"Atlanta, GA",100,Comedy,100+
-The Electric Ballroom,"Nashville, TN",2000,Electronic,1000+
-The Juke Joint,"Pittsburg, PA",3000,Pop,100+
-The Music Box,"Los Angeles, CA",500,Electronic,1000+
-The Rhythm Room,"Miami, FL",2000,Reggae,1000+
-The Rockpile,"Dallas, TX",1500,Pop,500+
+The Stage House,"Chicago, IL",100,Country,25+
+Bogart's,"Cincinnati, OH",250,None,100+
+The Melody Hall,"Chicago, IL",500,None,200+
+The Ampitheatre,"Cleveland, OH",750,Country,500+
+The Arena Club,"Dallas, TX",1000,Comedy,1000+
+The Electric Ballroom,"Indianapolis, IN",1500,Electronic,1000+
+The Juke Joint,"Los Angeles, CA",2000,Pop,100+
+The Music Box,"Los Angeles, CA",2500,Electronic,1000+
+The Rhythm Room,"Miami, FL",3000,Reggae,1000+
+The Rockpile,"Nashville, TN",1500,Pop,500+
 The Starlight Theatre,"Cincinnati, OH",1500,Electronic,1000+
-The Underground Lounge,"Indianapolis, IN",1500,Country,1000+
+The Underground Lounge,"Pittsburg, PA",1500,Country,1000+
 The Acoustic Room,"Chicago, IL",500,Rock,25+
 The Backstage Bar,"Cleveland, OH",1000,Comedy,1000+
 The Concert Hall,"Atlanta, GA",3000,Country,500+
@@ -50,3 +50,253 @@ The Kinetic Club,"Pittsburg, PA",1500,Rock,500+
 The Listening Lounge,"Los Angeles, CA",2000,Comedy,200+
 The Melodic Mansion,"Miami, FL",2500,Jazz,1000+
 The Sound Garden,"Dallas, TX",2000,Electronic,100+
+Lemon Sky,"Cincinnati, OH",1500,Electronic,100+
+Cosmic Honey,"Indianapolis, IN",100,Jazz,200+
+The Crystal Methodists,"Chicago, IL",750,Country,500+
+Sleeping Giants,"Cleveland, OH",3000,Rock,1000+
+Silverfox,"Atlanta, GA",500,Alternative,25+
+Midnight Wanderers,"Nashville, TN",250,Reggae,100+
+The Electric Chickens,"Pittsburg, PA",1500,Pop,500+
+The Broken Keys,"Los Angeles, CA",1000,Comedy,200+
+The Neon Hawks,"Miami, FL",250,Jazz,25+
+The Ghost Lovers,"Dallas, TX",500,Alternative,1000+
+Electric Eels,"Nashville, TN",2000,Pop,500+
+Burnt Bridges,"Cleveland, OH",100,Rock,1000+
+Tidal Waves,"Miami, FL",3000,Country,25+
+The Morning After,"Atlanta, GA",2500,Electronic,200+
+Velvet Noir,"Los Angeles, CA",1000,Reggae,100+
+The Velvet Hearts,"Indianapolis, IN",500,Comedy,500+
+Flicker of Hope,"Chicago, IL",750,Jazz,200+
+The Silent Wolves,"Cincinnati, OH",100,Rock,25+
+The Electric Crystals,"Dallas, TX",3000,Alternative,1000+
+The Moonlighters,"Pittsburg, PA",250,Country,200+
+The Midnighters,"Los Angeles, CA",1500,Pop,500+
+Rusty Chains,"Miami, FL",500,Reggae,25+
+The Neon Knights,"Atlanta, GA",2500,Electronic,1000+
+Northern Lights,"Nashville, TN",750,Jazz,100+
+The Dream Thieves,"Cincinnati, OH",1000,Alternative,200+
+The Golden Suns,"Indianapolis, IN",500,Pop,500+
+The Sunsets,"Pittsburg, PA",250,Rock,1000+
+The Starlighters,"Dallas, TX",3000,Country,25+
+The Desert Wolves,"Cleveland, OH",750,Electronic,200+
+The Wild Ones,"Chicago, IL",100,Reggae,100+
+The Velvet Undergrounders,"Nashville, TN",2500,Jazz,1000+
+Red Planet,"Atlanta, GA",1000,Alternative,500+
+The Blackout Bandits,"Miami, FL",1500,Pop,25+
+The Electric Ravens,"Los Angeles, CA",500,Rock,200+
+The Rebel Hearts,"Cleveland, OH",750,Country,100+
+Silver Springs,"Indianapolis, IN",3000,Electronic,500+
+The Dusk Patrol,"Pittsburg, PA",100,Reggae,1000+
+Blue Flames,"Dallas, TX",2500,Jazz,25+
+The Electric Vultures,"Chicago, IL",500,Pop,200+
+The Neon Serpents,"Nashville, TN",1000,Rock,500+
+The Burning Bridges,"Atlanta, GA",250,Alternative,1000+
+Electric Rats,"Los Angeles, CA",1500,Country,25+
+The Crimson Keys,"Miami, FL",3000,Jazz,100+
+The Cactus Bloomers,"Cincinnati, OH",750,Reggae,500+
+The Sapphire Stars,"Cleveland, OH",100,Electronic,200+
+The Iron Butterflies,"Indianapolis, IN",2500,Rock,1000+
+The Midnight Stars,"Dallas, TX",500,Pop,25+
+The Starry Eyed,"Pittsburg, PA",1000,Alternative,200+
+The Galactic Gang,"Chicago, IL",250,Country,500+
+The Darkening Skies,"Los Angeles, CA",1500,Jazz,1000+
+The Solar Flares,"Atlanta, GA",3000,Electronic,100+
+The Solar Eclipse,"Miami, FL",750,Rock,25+
+The Golden Years,"Nashville, TN",100,Reggae,500+
+The Neon Sharks,"Cleveland, OH",500,Pop,200+
+The Electric Diamonds,"Indianapolis, IN",2500,Alternative,1000+
+The Cosmic Waves,"Pittsburg, PA",1000,Comedy,500+
+The Black Diamond Band,"Chicago, IL",1500,Jazz,200+
+The Lunar Lovers,"Dallas, TX",250,Pop,1000+
+The Skyriders,"Los Angeles, CA",750,Rock,25+
+The Wild Roses,"Miami, FL",3000,Alternative,100+
+The Electric Serpents,"Atlanta, GA",100,Country,500+
+The Velvet Hearts Club,"Nashville, TN",2500,Electronic,200+
+The Burning Bridges Band,"Cincinnati, OH",500,Jazz,1000+
+The Silver Surfers,"Indianapolis, IN",1000,Reggae,25+
+The Mystic Moons,"Pittsburg, PA",250,Pop,200+
+The Midnight Ramblers,"Dallas, TX",1500,Rock,500+
+The Diamond Dogs,"Cleveland, OH",3000,Alternative,100+
+The Mystic Eyes,"Chicago, IL",750,Country,1000+
+The Velvet Violets,"Los Angeles, CA",100,Electronic,25+
+The Lost Boys,"Miami, FL",500,Jazz,500+
+The Dark Knights,"Atlanta, GA",2500,Pop,200+
+The Electric Phoenixes,"Nashville, TN",1000,Rock,1000+
+The Skywalkers,"Cincinnati, OH",1500,Reggae,100+
+The Mystic Rivers,"Indianapolis, IN",500,Alternative,25+
+The Electric Unicorns,"Pittsburg, PA",750,Jazz,500+
+The Fireflies,"Dallas, TX",3000,Electronic,200+
+The Neon Dragons,"Cleveland, OH",100,Rock,1000+
+The Cosmic Riders,"Chicago, IL",2500,Pop,500+
+The Midnight Runners,"Miami, FL",500,Country,200+
+The Golden Eagles,"Los Angeles, CA",1000,Reggae,25+
+The Wild Stallions,"Atlanta, GA",250,Alternative,1000+
+The Diamond Hearts,"Nashville, TN",1500,Jazz,500+
+The Mystic Dreams,"Cincinnati, OH",3000,Pop,25+
+The Velvet Thunder,"Indianapolis, IN",750,Electronic,200+
+The Electric Angels,"Pittsburg, PA",100,Rock,100+
+The Dark Shadows,"Dallas, TX",2500,Country,500+
+The Sky Warriors,"Cleveland, OH",500,Reggae,1000+
+The Electric Dreamers,"Chicago, IL",1000,Alternative,25+
+The Mystic Mountains,"Los Angeles, CA",250,Jazz,200+
+The Velvet Pirates,"Miami, FL",1500,Pop,500+
+The Electric Storm,"Atlanta, GA",3000,Electronic,1000+
+The Mystic Garden,"Nashville, TN",750,Rock,25+
+The Neon Foxes,"Cincinnati, OH",100,Comedy,100+
+The Firestarters,"Indianapolis, IN",500,Reggae,500+
+The Cosmic Strangers,"Pittsburg, PA",2500,Alternative,200+
+The Midnight Warriors,"Dallas, TX",1000,Jazz,1000+
+The Golden Lights,"Cleveland, OH",1500,Pop,25+
+The Wild Mustangs,"Chicago, IL",250,Electronic,200+
+The Diamond Dust,"Los Angeles, CA",750,Rock,500+
+The Mystic Winds,"Miami, FL",3000,Country,1000+
+The Velvet Rebels,"Atlanta, GA",100,Reggae,100+
+The Electric Knights,"Nashville, TN",2500,Jazz,25+
+The Dark Dreams,"Cincinnati, OH",500,Pop,500+
+The Sky Surfers,"Indianapolis, IN",1000,Alternative,200+
+The Electric Universe,"Pittsburg, PA",250,Rock,1000+
+The Mystic Seas,"Dallas, TX",1500,Electronic,500+
+The Neon Panthers,"Cleveland, OH",3000,Jazz,200+
+The Firecrackers,"Chicago, IL",750,Reggae,1000+
+The Cosmic Comets,"Los Angeles, CA",100,Pop,25+
+The Midnight Wolves,"Miami, FL",500,Country,100+
+The Golden Flames,"Atlanta, GA",2500,Alternative,500+
+The Wild Eagles,"Nashville, TN",1000,Rock,200+
+The Diamond Dogs Band,"Cincinnati, OH",1500,Electronic,1000+
+The Mystic Roads,"Indianapolis, IN",500,Jazz,25+
+The Velvet Angels,"Pittsburg, PA",750,Pop,200+
+The Electric Sun,"Dallas, TX",3000,Reggae,500+
+The Dark Star,"Cleveland, OH",100,Country,100+
+The Sky Pirates,"Chicago, IL",2500,Rock,1000+
+The Mystic Plains,"Los Angeles, CA",500,Alternative,25+
+Electric Gypsies,"Miami, FL",1000,Jazz,500+
+Cosmic Radio,"Atlanta, GA",250,Electronic,200+
+Mystic Mountain,"Los Angeles, CA",1500,Pop,1000+
+Blue Violets,"Cleveland, OH",3000,Reggae,100+
+Neon Knights,"Atlanta, GA",750,Rock,25+
+Rusty Pipes,"Nashville, TN",100,Country,500+
+Night Riders,"Dallas, TX",2500,Jazz,200+
+Thunder Road,"Cincinnati, OH",500,Electronic,1000+
+Midnight Sun,"Miami, FL",1000,Pop,500+
+Neon Nights,"Indianapolis, IN",250,Reggae,200+
+Blue Moon,"Chicago, IL",1500,Alternative,25+
+Dreamland Express,"Pittsburg, PA",3000,Rock,1000+
+Wildfire,"Miami, FL",750,Country,500+
+The Mystic Bells,"Nashville, TN",100,Jazz,25+
+Black Rose,"Los Angeles, CA",500,Pop,200+
+Electric Thunder,"Dallas, TX",2500,Electronic,100+
+Solar Wind,"Indianapolis, IN",1000,Reggae,500+
+The Red Hots,"Cleveland, OH",500,Alternative,1000+
+Atomic Groove,"Atlanta, GA",2500,Rock,25+
+Blue Thunder,"Chicago, IL",1000,Jazz,200+
+The Flying Fish,"Pittsburg, PA",3000,Country,500+
+The Lost Boys,"Cincinnati, OH",250,Pop,1000+
+The Silver Stars,"Miami, FL",100,Electronic,25+
+The Funky Monkeys,"Nashville, TN",500,Reggae,100+
+The Soul Shakers,"Los Angeles, CA",1500,Alternative,1000+
+The Electric Waves,"Indianapolis, IN",750,Jazz,25+
+The Night Owls,"Dallas, TX",2000,Rock,100+
+The Midnight Movers,"Cleveland, OH",1500,Pop,500+
+The Cosmic Rays,"Atlanta, GA",2500,Country,200+
+The Dreamers,"Chicago, IL",1000,Electronic,1000+
+The Dark Angels,"Pittsburg, PA",250,Reggae,25+
+The Velvet Underground,"Cincinnati, OH",750,Jazz,200+
+Radiohead,"Miami, FL",500,Alternative,500+
+Pink Floyd,"Nashville, TN",3000,Pop,1000+
+The Beatles,"Los Angeles, CA",100,Rock,100+
+Led Zeppelin,"Indianapolis, IN",2500,Country,25+
+The Rolling Stones,"Dallas, TX",1500,Electronic,500+
+Nirvana,"Cleveland, OH",750,Reggae,200+
+Queen,"Atlanta, GA",500,Jazz,1000+
+The Clash,"Chicago, IL",100,Alternative,500+
+U2,"Pittsburg, PA",3000,Pop,200+
+The Who,"Cincinnati, OH",250,Rock,1000+
+Metallica,"Miami, FL",1000,Country,25+
+Pearl Jam,"Nashville, TN",2500,Jazz,100+
+Black Sabbath,"Los Angeles, CA",500,Electronic,500+
+AC/DC,"Indianapolis, IN",1500,Reggae,200+
+Guns N' Roses,"Dallas, TX",750,Pop,1000+
+Aerosmith,"Cleveland, OH",1000,Alternative,25+
+Van Halen,"Atlanta, GA",3000,Rock,200+
+The Doors,"Chicago, IL",250,Country,500+
+R.E.M.,"Pittsburg, PA",500,Jazz,100+
+The Smiths,"Cincinnati, OH",2500,Electronic,1000+
+Joy Division,"Miami, FL",1500,Reggae,25+
+The Cure,"Nashville, TN",100,Pop,500+
+New Order,"Los Angeles, CA",750,Rock,200+
+Depeche Mode,"Indianapolis, IN",3000,Alternative,1000+
+Nine Inch Nails,"Dallas, TX",1000,Jazz,100+
+Soundgarden,"Cleveland, OH",2500,Country,25+
+Alice in Chains,"Atlanta, GA",500,Electronic,500+
+Stone Temple Pilots,"Chicago, IL",1500,Pop,200+
+Foo Fighters,"Pittsburg, PA",250,Reggae,1000+
+Smashing Pumpkins,"Cincinnati, OH",750,Rock,500+
+Oasis,"Miami, FL",1000,Rock,200+
+Blur,"Nashville, TN",3000,Electronic,25+
+Coldplay,"Los Angeles, CA",2500,Comedy,1000+
+Arctic Monkeys,"Indianapolis, IN",1500,Alternative,500+
+The Strokes,"Dallas, TX",500,Jazz,25+
+Franz Ferdinand,"Cleveland, OH",750,Pop,200+
+Interpol,"Atlanta, GA",1000,Reggae,100+
+The Killers,"Chicago, IL",250,Country,500+
+The White Stripes,"Pittsburg, PA",3000,Rock,1000+
+The Black Keys,"Cincinnati, OH",2500,Alternative,25+
+Green Day,"Miami, FL",500,Jazz,200+
+Weezer,"Nashville, TN",1500,Electronic,500+
+The Arctic Monkeys,"Los Angeles, CA",750,Reggae,1000+
+The Dead Weather,"Indianapolis, IN",100,Pop,25+
+Cage the Elephant,"Dallas, TX",1000,Comedy,100+
+The Black Rebel Motorcycle Club,"Cleveland, OH",2500,Country,500+
+The Kooks,"Atlanta, GA",3000,Rock,200+
+The Arctic Monkeys,"Chicago, IL",250,Electronic,1000+
+The Pains of Being Pure at Heart,"Pittsburg, PA",500,Alternative,25+
+The National,"Cincinnati, OH",1500,Jazz,200+
+Band of Horses,"Miami, FL",750,Pop,500+
+Foster the People,"Nashville, TN",1000,Reggae,1000+
+Vampire Weekend,"Los Angeles, CA",2500,Country,100+
+The Yeah Yeah Yeahs,"Indianapolis, IN",3000,Rock,25+
+The Decemberists,"Dallas, TX",250,Jazz,500+
+The Hives,"Cleveland, OH",500,Electronic,200+
+The Bravery,"Atlanta, GA",1500,Pop,1000+
+The Thrills,"Chicago, IL",100,Reggae,500+
+The Fratellis,"Pittsburg, PA",750,Alternative,200+
+The Libertines,"Cincinnati, OH",2500,Country,1000+
+The Darkness,"Miami, FL",1000,Rock,25+
+The Kaiser Chiefs,"Nashville, TN",3000,Jazz,100+
+The Futureheads,"Los Angeles, CA",1500,Electronic,500+
+The Maccabees,"Indianapolis, IN",500,Pop,200+
+The Editors,"Dallas, TX",250,Reggae,1000+
+The Vaccines,"Cleveland, OH",750,Alternative,25+
+The Wombats,"Atlanta, GA",2500,Country,200+
+The Cribs,"Chicago, IL",100,Rock,500+
+The Horrors,"Pittsburg, PA",1000,Jazz,100+
+The Kooks,"Cincinnati, OH",3000,Electronic,1000+
+The Arctic Monkeys,"Miami, FL",1500,Pop,25+
+The Killers,"Nashville, TN",250,Reggae,500+
+The Strokes,"Los Angeles, CA",500,Alternative,200+
+The White Stripes,"Indianapolis, IN",750,Country,1000+
+The Black Keys,"Dallas, TX",2500,Rock,100+
+The Hives,"Cleveland, OH",1000,Jazz,25+
+The Vines,"Atlanta, GA",3000,Electronic,500+
+The Stills,"Chicago, IL",1500,Pop,200+
+The Shins,"Pittsburg, PA",500,Reggae,1000+
+The Arcade Fire,"Cincinnati, OH",750,Alternative,500+
+The Broken Social Scene,"Miami, FL",250,Country,200+
+The Dears,"Nashville, TN",100,Rock,25+
+The New Pornographers,"Los Angeles, CA",2500,Jazz,1000+
+The Postal Service,"Indianapolis, IN",1000,Electronic,500+
+The Rapture,"Dallas, TX",3000,Pop,25+
+The Faint,"Cleveland, OH",500,Reggae,200+
+The Bravery,"Atlanta, GA",1500,Alternative,100+
+The Futureheads,"Chicago, IL",750,Country,500+
+The Killers,"Pittsburg, PA",2500,Rock,1000+
+The Strokes,"Cincinnati, OH",100,Jazz,25+
+The White Stripes,"Miami, FL",1000,Electronic,200+
+The Black Keys,"Pittsburg, PA",250,Pop,500+
+The Hives,"Cincinnati, OH",3000,Reggae,1000+
+The Vines,"Miami, FL",1500,Alternative,25+
+The Stills,"Nashville, TN",500,Country,200+
+Stone Foxes,"Los Angeles, CA",750,Rock,100+
+Plastic Bertrand,"Indianapolis, IN",2500,Jazz,500+
+Night Owl Society,"Dallas, TX",1000,Electronic,1000+
+The Royal Concept,"Nashville, TN",3000,Pop,25+

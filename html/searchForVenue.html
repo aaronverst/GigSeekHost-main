@@ -63,7 +63,8 @@
           </li>
         </ul>
         <div class="ml-auto my-2 my-lg-0">
-          <button class="btn btn-primary rounded-pill">Download Now</button>
+          <button class="btn btn-primary rounded-pill"
+            onclick="smoothScroll(document.getElementById('scrollhere'))">Search Now</button>
         </div>
       </div>
     </div>
@@ -92,7 +93,7 @@
       <div class="container">
         <div class="row">
           <div class="search-venue">
-            <div class="name_dropdown">
+            <div class="name_dropdown" id="scrollhere">
               <label for="nameDropdown"> Name: </label>
               <select id="nameDropdown" class="name_dropdown-content">
               </select>
@@ -290,6 +291,9 @@
   <script src="../assets/js/VenueData.js"></script>
 
   <script src="../assets/js/VenueImgGenerator.js"></script>
+
+  <script src="../assets/js/smoothScroller.js"></script>
+
 
 </body>
 
