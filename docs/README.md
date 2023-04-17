@@ -15,7 +15,7 @@
 - #### Task List
 - #### Timeline
 - #### Effort Matrix
-## 5. [PPT Slideshow]
+## 5. [Spring Final PPT Slideshow]
 ## 6. Self-Assessment Essays
 - #### [Aaron Verst's Assessment]
 - #### [Ryan Gengler's Assessment]
@@ -31,7 +31,7 @@
 [User Manual]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/GigSeek_User_Doc_and_Manual.md>
 [Project Tasks]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/TaskList.md>
 [Timeline]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/GigSeek%20Timeline%20and%20Effort%20Matrix%20-%20Sheet1.pdf>
-[PPT Slideshow]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%20Slideshow%20Presentation.pdf>
+[Spring Final PPT Slideshow]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%Presentation%Slide%Deck.pptx>
 [Aaron Verst]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Aaron_Verst%20ProfessionalBiography%20(2).md>
 [Budget]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek_Budget.md>
 [Ryan Gengler]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Professional%20Biography%20-%20Ryan%20Gengler.md>
