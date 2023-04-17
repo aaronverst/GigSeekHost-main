@@ -11,23 +11,25 @@
 - #### User Stories 
 - #### Design Diagrams: Level 0, Level 1 and Level 2 
 - #### Description of the Diagrams
-## 4. [Project Tasks] and [Timeline]
+## 4. [User Manual]
+## 5. [Project Tasks] and [Timeline]
 - #### Task List
 - #### Timeline
 - #### Effort Matrix
-## 5. [PPT Slideshow]
-## 6. Self-Assessment Essays
+## 6. [PPT Slideshow]
+## 7. Self-Assessment Essays
 - #### [Aaron Verst's Assessment]
 - #### [Ryan Gengler's Assessment]
-## 7. Professional Biographies
+## 8. Professional Biographies
 - #### [Aaron Verst]
 - #### [Ryan Gengler]
-## 8. [Budget]
-## 9. [Appendix]
+## 9. [Budget]
+## 10. [Appendix]
 
 
 [Project Description]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%20Project%20Description.md>
 [User Stories and Design Diagrams]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%20Design%20Diagram.pdf>
+[User Manual]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/GigSeek_User_Doc_and_Manual.md>
 [Project Tasks]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/TaskList.md>
 [Timeline]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/GigSeek%20Timeline%20and%20Effort%20Matrix%20-%20Sheet1.pdf>
 [PPT Slideshow]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%20Slideshow%20Presentation.pdf>
