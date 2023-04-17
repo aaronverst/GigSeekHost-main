@@ -5,26 +5,25 @@
 
 
 
-## 1. [Project Abstract]
-## 2. [Project Description]
-## 3. [User Stories and Design Diagrams]
+## 1. [Project Description]
+## 2. [User Stories and Design Diagrams]
 - #### User Stories 
 - #### Design Diagrams: Level 0, Level 1 and Level 2 
 - #### Description of the Diagrams
-## 4. [User Manual]
-## 5. [Project Tasks] and [Timeline]
+## 3. [User Manual]
+## 4. [Project Tasks] and [Timeline]
 - #### Task List
 - #### Timeline
 - #### Effort Matrix
-## 6. [PPT Slideshow]
-## 7. Self-Assessment Essays
+## 5. [PPT Slideshow]
+## 6. Self-Assessment Essays
 - #### [Aaron Verst's Assessment]
 - #### [Ryan Gengler's Assessment]
-## 8. Professional Biographies
+## 7. Professional Biographies
 - #### [Aaron Verst]
 - #### [Ryan Gengler]
-## 9. [Budget]
-## 10. [Appendix]
+## 8. [Budget]
+## 9. [Appendix]
 
 
 [Project Description]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%20Project%20Description.md>
