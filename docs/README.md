@@ -1,6 +1,6 @@
 # Gigseek Final Design Report
 ## Table of Contents
-### Team members: Aaron Verst, Ryan Gengler, Ilias Skondras
+### Team members: Aaron Verst, Ryan Gengler
 ### Advisor: Jillian Aurisano
 
 
