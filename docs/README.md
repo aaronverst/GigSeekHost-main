@@ -31,7 +31,7 @@
 [User Manual]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/GigSeek_User_Doc_and_Manual.md>
 [Project Tasks]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/TaskList.md>
 [Timeline]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/GigSeek%20Timeline%20and%20Effort%20Matrix%20-%20Sheet1.pdf>
-[Spring Final PPT Slideshow]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%Presentation%Slide%Deck.pptx>
+[Spring Final PPT Slideshow]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek%20Presentation%20Slide%20Deck.pptx>
 [Aaron Verst]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Aaron_Verst%20ProfessionalBiography%20(2).md>
 [Budget]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Gigseek_Budget.md>
 [Ryan Gengler]: <https://github.com/GigSeekSeniorDesign2022/gigseek-docs/blob/main/Professional%20Biography%20-%20Ryan%20Gengler.md>
