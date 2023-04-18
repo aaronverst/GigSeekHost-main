@@ -21,10 +21,13 @@
 - #### [Aaron Verst's Assessment]
 - #### [Ryan Gengler's Assessment]
 ## 8. Professional Biographies
-- #### [Aaron Verst]
+- #### [Aaron Verst Bio]
+- #### [Ryan Gengler Bio]
+## 9. [Summary of Hours]
 - #### [Ryan Gengler]
-## 9. [Budget]
-## 10. [Appendix]
+- #### [Aaron Verst]
+## 10. [Budget]
+## 11. [Appendix]
 
 
 [Project Description]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20Project%20Description.md>
@@ -33,14 +36,15 @@
 [Project Tasks]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/TaskList.md>
 [Timeline]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/GigSeek%20Timeline%20and%20Effort%20Matrix%20-%20Sheet1.pdf>
 [Spring Final PPT Slideshow]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20Presentation%20Slide%20Deck.pptx>
-[Aaron Verst]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Aaron_Verst%20ProfessionalBiography%20(2).md>
+[Aaron Verst Bio]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Aaron_Verst%20ProfessionalBiography%20(2).md>
 [Budget]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek_Budget.md>
-[Ryan Gengler]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Professional%20Biography%20-%20Ryan%20Gengler.md>
+[Ryan Gengler Bio]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Professional%20Biography%20-%20Ryan%20Gengler.md>
 [Aaron Verst's Assessment]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Aaron_Verst_GigSeek_Personal_Assessment.pdf>
 [Ryan Gengler's Assessment]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Capstone%20Assessment%20Ryan%20Gengler.pdf>
 [Project Abstract]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/main/Team%20Names%20and%20Project%20Abstract.md>
 [Appendix]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20Appendix.md>
 [Final Expo Poster]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20Final%20Poster.pdf>
+
 
 
 
