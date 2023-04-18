@@ -47,7 +47,7 @@
 [Summary of Hours]: <https://github.com/aaronverst/GigSeekHost-main/blob/master/docs/Summary%20of%20Hours%20Spent.xlsx>
 [Ryan Gengler]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Summary%20of%20Hours%20and%20Justification%20Ryan%20Gengler.pdf>
 [Aaron Verst]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Aaron%20Verst%20Hour%20Analysis%20and%20Justification.docx>
-[Summary of Expenses}: <https://github.com/aaronverst/GigSeekHost-main/blob/master/docs/Summary%20of%20Expenses.xlsx>
+[Summary of Expenses]: <https://github.com/aaronverst/GigSeekHost-main/blob/master/docs/Summary%20of%20Expenses.xlsx>
 
 
 
