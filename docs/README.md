@@ -16,6 +16,7 @@
 - #### Timeline
 - #### Effort Matrix
 ## 5. [Spring Final PPT Slideshow]
+- #### [Slide Show Presentation]
 ## 6. [Final Expo Poster]
 ## 7. Self-Assessment Essays
 - #### [Aaron Verst's Fall Assessment]
@@ -52,6 +53,7 @@
 [Summary of Expenses]: <https://github.com/aaronverst/GigSeekHost-main/blob/master/docs/Summary%20of%20Expenses.xlsx>
 [Aaron Verst's Spring Assessment]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/AaronVerst_Assignment%206_%20Individual%20Reflection_Spring.docx>
 [Ryan Gengler's Spring Assessment]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Self-Assessment%20Spring%202023%20Ryan%20Gengler.pdf>
+[Slide Show Presentation]: <https://drive.google.com/file/d/1NJdmoW0hm4iI7u4xCW8vGS9ywI4YFN9A/view?usp=share_link>
 
 
 
