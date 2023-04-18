@@ -11,26 +11,27 @@
 - #### Design Diagrams: Level 0, Level 1 and Level 2 
 - #### Description of the Diagrams
 ## 3. [User Manual]
-## 4. [Project Tasks] and [Timeline]
+## 4. [Test Plan and Results]
+## 5. [Project Tasks] and [Timeline]
 - #### Task List
 - #### Timeline
 - #### Effort Matrix
-## 5. [Spring Final PPT Slideshow]
+## 6. [Spring Final PPT Slideshow]
 - #### [Slide Show Presentation]
-## 6. [Final Expo Poster]
-## 7. Self-Assessment Essays
+## 7. [Final Expo Poster]
+## 8. Self-Assessment Essays
 - #### [Aaron Verst's Fall Assessment]
 - #### [Aaron Verst's Spring Assessment]
 - #### [Ryan Gengler's Fall Assessment]
 - #### [Ryan Gengler's Spring Assessment]
-## 8. Professional Biographies
+## 9. Professional Biographies
 - #### [Aaron Verst Bio]
 - #### [Ryan Gengler Bio]
-## 9. [Summary of Hours]
+## 10. [Summary of Hours]
 - #### [Ryan Gengler]
 - #### [Aaron Verst]
-## 10. [Summary of Expenses]
-## 11. [Appendix]
+## 11. [Summary of Expenses]
+## 12. [Appendix]
 
 
 [Project Description]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20Project%20Description.md>
