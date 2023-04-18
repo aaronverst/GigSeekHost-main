@@ -44,6 +44,9 @@
 [Project Abstract]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/main/Team%20Names%20and%20Project%20Abstract.md>
 [Appendix]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20Appendix.md>
 [Final Expo Poster]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20Final%20Poster.pdf>
+[Summary of Hours]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Summary%20of%20Hours20%Spent.xlsx>
+[Ryan Gengler]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Summary%20of%20Hours%20Spent%20and%20Justification%20Ryan%20Gengler.pdf>
+[Aaron Verst]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Aaron%20Verst%20Hour%20Analysis%20and%20Justification.docx>
 
 
 
