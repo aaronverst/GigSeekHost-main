@@ -55,7 +55,7 @@
 [Aaron Verst's Spring Assessment]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/AaronVerst_Assignment%206_%20Individual%20Reflection_Spring.docx>
 [Ryan Gengler's Spring Assessment]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Self-Assessment%20Spring%202023%20Ryan%20Gengler.pdf>
 [Slide Show Presentation]: <https://drive.google.com/file/d/1NJdmoW0hm4iI7u4xCW8vGS9ywI4YFN9A/view?usp=share_link>
-[Test Plan and Results]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/Gigseek%20-%20Assignment%201%20-%20Test%20Plan.pdf>
+[Test Plan and Results]: <https://github.com/aaronverst/GigSeekHost-main/tree/master/docs/GigSeek%20-%20Assignment%201%20-%20Test%20Plan.pdf>
 
 
 
